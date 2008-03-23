@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E94D0D971B3F0062DD8D /* DPImageView.m */; };
 		FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */; };
 		FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C510D96A0EA00DAD8D5 /* SI_Main.nib */; };
 		FAB52C680D96A14100DAD8D5 /* SI_MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C650D96A14100DAD8D5 /* SI_MenuController.m */; };
@@ -42,6 +43,8 @@
 		32CA4F630368D1EE00C91783 /* Set Icon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Set Icon_Prefix.pch"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Set Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4E94C0D971B3F0062DD8D /* DPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageView.h; sourceTree = "<group>"; };
+		FAA4E94D0D971B3F0062DD8D /* DPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageView.m; sourceTree = "<group>"; };
 		FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_Menu.nib; sourceTree = "<group>"; };
 		FAB52C510D96A0EA00DAD8D5 /* SI_Main.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_Main.nib; sourceTree = "<group>"; };
 		FAB52C640D96A14100DAD8D5 /* SI_MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MenuController.h; sourceTree = "<group>"; };
@@ -127,9 +130,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FAA4E9440D971AF80062DD8D /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4E94C0D971B3F0062DD8D /* DPImageView.h */,
+				FAA4E94D0D971B3F0062DD8D /* DPImageView.m */,
+			);
+			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
 		FAE9E7B00D9699C800854FC8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FAA4E9440D971AF80062DD8D /* Custom Objects */,
 				080E96DDFE201D6D7F000001 /* Application */,
 				29B97315FDCFA39411CA2CEA /* Misc */,
 			);
@@ -215,6 +228,7 @@
 				FAB52C680D96A14100DAD8D5 /* SI_MenuController.m in Sources */,
 				FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */,
 				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
+				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

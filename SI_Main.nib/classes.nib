@@ -29,12 +29,20 @@
 				<key>setIconButton</key>
 				<string>NSButton</string>
 				<key>theIcon</key>
-				<string>NSImageView</string>
+				<string>DPImageView</string>
 				<key>theWindow</key>
 				<string>NSWindow</string>
 			</dict>
 			<key>SUPERCLASS</key>
 			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>DPImageView</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSImageView</string>
 		</dict>
 		<dict>
 			<key>CLASS</key>

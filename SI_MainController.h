@@ -7,12 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DPImageView.h"
 
 @interface SI_MainController : NSObject
 {
 	IBOutlet NSWindow *theWindow;
 	IBOutlet NSPathControl *drivePath;
-    IBOutlet NSImageView *theIcon;
+    IBOutlet DPImageView *theIcon;
 	IBOutlet NSButton *setIconButton;
 }
 

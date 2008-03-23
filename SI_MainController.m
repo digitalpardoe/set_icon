@@ -18,7 +18,7 @@
 - (IBAction)setIcon:(id)sender
 {
 	NSLog(@"%@", [[drivePath URL] relativePath]);
-	NSLog(@"%@", [theIcon image]);
+	NSLog(@"%@", [theIcon imagePath]);
 }
 
 @end
