@@ -281,9 +281,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>13</integer>
+									<integer>11</integer>
+									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -318,14 +318,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>FAC14D790D96979A00A83057</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SI_ApplicationController.m</string>
+								<string>Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,38 +331,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FAC14D7A0D96979A00A83057</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SI_ApplicationController.m</string>
+										<string>Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAB52CCE0D96A5BA00DAD8D5</string>
+										<string>FAB52CE30D96A7C200DAD8D5</string>
 										<key>history</key>
 										<array>
 											<string>FAB52CA30D96A45B00DAD8D5</string>
-											<string>FAB52CC00D96A56800DAD8D5</string>
 											<string>FAB52CC10D96A56800DAD8D5</string>
 											<string>FAB52CC20D96A56800DAD8D5</string>
-											<string>FAB52CCA0D96A58C00DAD8D5</string>
+											<string>FAB52CD50D96A7B500DAD8D5</string>
+											<string>FAB52CD70D96A7B500DAD8D5</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>FAB52C760D96A3A000DAD8D5</string>
 											<string>FAB52C770D96A3A000DAD8D5</string>
 											<string>FAB52C780D96A3A000DAD8D5</string>
-											<string>FAB52CA50D96A45B00DAD8D5</string>
-											<string>FAB52CA60D96A45B00DAD8D5</string>
 											<string>FAB52CA70D96A45B00DAD8D5</string>
-											<string>FAB52CA80D96A45B00DAD8D5</string>
-											<string>FAB52CA90D96A45B00DAD8D5</string>
-											<string>FAB52CAA0D96A45B00DAD8D5</string>
-											<string>FAB52CAB0D96A45B00DAD8D5</string>
-											<string>FAB52CAC0D96A45B00DAD8D5</string>
-											<string>FAB52CAD0D96A45B00DAD8D5</string>
-											<string>FAB52CAE0D96A45B00DAD8D5</string>
-											<string>FAB52CB50D96A47100DAD8D5</string>
 											<string>FAB52CC30D96A56800DAD8D5</string>
-											<string>FAB52CC40D96A56800DAD8D5</string>
-											<string>FAB52CC50D96A56800DAD8D5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -403,9 +389,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1713, 124}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 79 1920 1099 0 0 1920 1178 </string>
+										<string>{{10, 27}, {377, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -421,12 +405,14 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1713, 131}}</string>
+										<string>{{10, 27}, {1713, 124}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
 								</dict>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXCVSModuleFilterTypeKey</key>
@@ -461,6 +447,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1713, 124}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 79 1920 1099 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXCVSModule</string>
@@ -508,11 +496,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAB52C910D96A3B500DAD8D5</string>
+				<string>FAB52CE40D96A7C200DAD8D5</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>FAB52C920D96A3B500DAD8D5</string>
+				<string>FAB52CE50D96A7C200DAD8D5</string>
 				<string>FAC14D790D96979A00A83057</string>
-				<string>FAB52C930D96A3B500DAD8D5</string>
+				<string>FAB52CE60D96A7C200DAD8D5</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -657,14 +645,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAB52C940D96A3B500DAD8D5</string>
+				<string>FAB52CE70D96A7C200DAD8D5</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>FAB52C950D96A3B500DAD8D5</string>
-				<string>FAB52C960D96A3B500DAD8D5</string>
-				<string>FAB52C970D96A3B500DAD8D5</string>
-				<string>FAB52C980D96A3B500DAD8D5</string>
-				<string>FAB52C990D96A3B500DAD8D5</string>
+				<string>FAB52CE80D96A7C200DAD8D5</string>
+				<string>FAB52CE90D96A7C200DAD8D5</string>
+				<string>FAB52CEA0D96A7C200DAD8D5</string>
+				<string>FAB52CEB0D96A7C200DAD8D5</string>
+				<string>FAB52CEC0D96A7C200DAD8D5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
