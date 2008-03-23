@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Set Icon</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Set Icon 0.1, Copyright © digital:pardoe, 2008</string>
+	<key>CFBundleIdentifier</key>
+	<string>uk.co.digitalpardoe.Set Icon</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Set Icon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSMainNibFile</key>
+	<string>SI_Main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUCheckAtStartup</key>
+	<false/>
+	<key>SUFeedURL</key>
+	<string>http://digitalpardoe.co.uk/appcast/main/Set+File</string>
+</dict>
+</plist>
