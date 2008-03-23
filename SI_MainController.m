@@ -8,11 +8,17 @@
 
 #import "SI_MainController.h"
 
-
 @implementation SI_MainController
 
-- (void)awakeFromNib {
-	[window center];
+- (void)awakeFromNib
+{
+	[theWindow center];
+}
+
+- (IBAction)setIcon:(id)sender
+{
+	NSLog(@"%@", [[drivePath URL] relativePath]);
+	NSLog(@"%@", [theIcon image]);
 }
 
 @end

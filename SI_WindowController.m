@@ -8,7 +8,6 @@
 
 #import "SI_WindowController.h"
 
-
 @implementation SI_WindowController
 
 @end

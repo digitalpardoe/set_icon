@@ -8,9 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-
-@interface SI_WindowController : NSWindowController {
-
+@interface SI_WindowController : NSWindowController
+{
 }
 
 @end

@@ -8,9 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-
-@interface SI_MainController : NSObject {
-	IBOutlet id window;
+@interface SI_MainController : NSObject
+{
+	IBOutlet NSWindow *theWindow;
+	IBOutlet NSPathControl *drivePath;
+    IBOutlet NSImageView *theIcon;
+	IBOutlet NSButton *setIconButton;
 }
+
+- (IBAction)setIcon:(id)sender;
 
 @end
