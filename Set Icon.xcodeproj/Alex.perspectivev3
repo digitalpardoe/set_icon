@@ -340,18 +340,45 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
+<<<<<<< .mine
+										<string>FAA202500D971B6F003F3E46</string>
+=======
 										<string>FAA4E9AD0D971F150062DD8D</string>
+>>>>>>> .r20
 										<key>history</key>
 										<array>
+<<<<<<< .mine
+											<string>FAB52D100D96AB1700DAD8D5</string>
+											<string>FAB52E050D96C38C00DAD8D5</string>
+											<string>FAB52E060D96C38C00DAD8D5</string>
+											<string>FAB52E0A0D96C38C00DAD8D5</string>
+											<string>FAB52E0B0D96C38C00DAD8D5</string>
+											<string>FAEAA26B0D970564008CB8CD</string>
+											<string>FAEAA2E10D970991008CB8CD</string>
+											<string>FAEAA2E20D970991008CB8CD</string>
+											<string>FAEAA2F90D970E5F008CB8CD</string>
+=======
 											<string>FAA4E9450D971B0E0062DD8D</string>
 											<string>FAA4E9990D971EFD0062DD8D</string>
 											<string>FAA4E99A0D971EFD0062DD8D</string>
 											<string>FAA4E99B0D971EFD0062DD8D</string>
 											<string>FAA4E99C0D971EFD0062DD8D</string>
 											<string>FAA4E9AB0D971F110062DD8D</string>
+>>>>>>> .r20
 										</array>
 										<key>prevStack</key>
 										<array>
+<<<<<<< .mine
+											<string>FAB52C770D96A3A000DAD8D5</string>
+											<string>FAB52C780D96A3A000DAD8D5</string>
+											<string>FAB52CA70D96A45B00DAD8D5</string>
+											<string>FAB52CC30D96A56800DAD8D5</string>
+											<string>FAB52D5B0D96ADA000DAD8D5</string>
+											<string>FAB52D810D96B05900DAD8D5</string>
+											<string>FAB52D820D96B05900DAD8D5</string>
+											<string>FAB52E130D96C38C00DAD8D5</string>
+											<string>FAB52E140D96C38C00DAD8D5</string>
+=======
 											<string>FAA4E9470D971B0E0062DD8D</string>
 											<string>FAA4E9570D971D240062DD8D</string>
 											<string>FAA4E9580D971D240062DD8D</string>
@@ -361,6 +388,7 @@
 											<string>FAA4E99E0D971EFD0062DD8D</string>
 											<string>FAA4E99F0D971EFD0062DD8D</string>
 											<string>FAA4E9A00D971EFD0062DD8D</string>
+>>>>>>> .r20
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,9 +427,13 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
+<<<<<<< .mine
+										<string>{{10, 27}, {377, -27}}</string>
+=======
 										<string>{{10, 27}, {817, 109}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 78 1024 668 0 0 1024 746 </string>
+>>>>>>> .r20
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -504,11 +536,23 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< .mine
+				<string>FAA202510D971B6F003F3E46</string>
+=======
 				<string>FAA4E9A30D971F020062DD8D</string>
+>>>>>>> .r20
 				<string>1CA23ED40692098700951B8B</string>
+<<<<<<< .mine
+				<string>FAA202520D971B6F003F3E46</string>
+=======
 				<string>FAA4E9A40D971F020062DD8D</string>
+>>>>>>> .r20
 				<string>FAC14D790D96979A00A83057</string>
+<<<<<<< .mine
+				<string>FAA202530D971B6F003F3E46</string>
+=======
 				<string>FAA4E9A50D971F020062DD8D</string>
+>>>>>>> .r20
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -653,14 +697,26 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< .mine
+				<string>FAA202540D971B6F003F3E46</string>
+=======
 				<string>FAA4E9A60D971F030062DD8D</string>
+>>>>>>> .r20
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
+<<<<<<< .mine
+				<string>FAA202550D971B6F003F3E46</string>
+				<string>FAA202560D971B6F003F3E46</string>
+				<string>FAA202570D971B6F003F3E46</string>
+				<string>FAA202580D971B6F003F3E46</string>
+				<string>FAA202590D971B6F003F3E46</string>
+=======
 				<string>FAA4E9A70D971F030062DD8D</string>
 				<string>FAA4E9A80D971F030062DD8D</string>
 				<string>FAA4E9A90D971F030062DD8D</string>
 				<string>FAA4E9AA0D971F030062DD8D</string>
 				<string>FAC14D790D96979A00A83057</string>
+>>>>>>> .r20
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -690,7 +746,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+<<<<<<< .mine
+		<string>/Users/Alex/Development/Objective-C/Set Icon/Working Release/Set Icon.xcodeproj</string>
+=======
 		<string>/Users/Alex/Development/Set Icon/Set Icon.xcodeproj</string>
+>>>>>>> .r20
 	</array>
 	<key>WindowString</key>
 	<string>0 78 1024 668 0 0 1024 746 </string>
