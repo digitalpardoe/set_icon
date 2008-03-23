@@ -13,6 +13,7 @@
 		FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C510D96A0EA00DAD8D5 /* SI_Main.nib */; };
 		FAB52C680D96A14100DAD8D5 /* SI_ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C650D96A14100DAD8D5 /* SI_ApplicationController.m */; };
 		FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */; };
+		FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */; };
 		FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
@@ -47,6 +48,8 @@
 		FAB52C650D96A14100DAD8D5 /* SI_ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ApplicationController.m; sourceTree = "<group>"; };
 		FAB52C660D96A14100DAD8D5 /* SI_WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_WindowController.h; sourceTree = "<group>"; };
 		FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_WindowController.m; sourceTree = "<group>"; };
+		FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MainController.h; sourceTree = "<group>"; };
+		FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_MainController.m; sourceTree = "<group>"; };
 		FAE9E7910D96998400854FC8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +74,8 @@
 				FAB52C650D96A14100DAD8D5 /* SI_ApplicationController.m */,
 				FAB52C660D96A14100DAD8D5 /* SI_WindowController.h */,
 				FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */,
+				FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */,
+				FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				FAB52C680D96A14100DAD8D5 /* SI_ApplicationController.m in Sources */,
 				FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */,
+				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

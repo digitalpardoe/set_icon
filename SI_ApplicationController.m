@@ -13,16 +13,9 @@
 
 - (void)awakeFromNib {
 	[NSApp activateIgnoringOtherApps:YES];
-	SI_WindowController *mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_Window"];
+	SI_WindowController *mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_Main"];
+	[[mainWindow document] setTitle:@"String"];
 	[mainWindow showWindow:self];
-}
-
-- (void)centerWindow {
-	NSRect visibleFrame = [[NSScreen mainScreen] visibleFrame];
-	NSRect windowFrame = [self frame];
-	[self setFrame:NSMakeRect((visibleFrame.size.width - windowFrame.size.width) * 0.5,
-	(visibleFrame.size.height - windowFrame.size.height) * (9.0/10.0),
-	windowFrame.size.width, windowFrame.size.height) display:YES];
 }
 
 @end
