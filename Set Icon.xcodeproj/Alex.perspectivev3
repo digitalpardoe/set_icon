@@ -281,7 +281,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>4</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -321,7 +323,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FAC14D790D96979A00A83057</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>SI_ApplicationController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,7 +331,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FAC14D7A0D96979A00A83057</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>SI_ApplicationController.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>FAB52C900D96A3B500DAD8D5</string>
+										<key>history</key>
+										<array>
+											<string>FAB52C730D96A3A000DAD8D5</string>
+											<string>FAB52C740D96A3A000DAD8D5</string>
+											<string>FAB52C7A0D96A3A000DAD8D5</string>
+										</array>
+										<key>prevStack</key>
+										<array>
+											<string>FAB52C760D96A3A000DAD8D5</string>
+											<string>FAB52C770D96A3A000DAD8D5</string>
+											<string>FAB52C780D96A3A000DAD8D5</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -342,18 +360,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1713, 749}}</string>
+								<string>{{0, 0}, {1713, 894}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 79 1920 1099 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>749pt</string>
+							<string>894pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>304pt</string>
+							<string>159pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -367,7 +385,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {377, -27}}</string>
+										<string>{{10, 27}, {1713, 111}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -424,7 +442,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1713, 277}}</string>
+										<string>{{10, 27}, {1713, 132}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 79 1920 1099 0 0 1920 1178 </string>
 									</dict>
@@ -474,11 +492,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAB52C360D96A07600DAD8D5</string>
+				<string>FAB52C910D96A3B500DAD8D5</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>FAB52C370D96A07600DAD8D5</string>
+				<string>FAB52C920D96A3B500DAD8D5</string>
 				<string>FAC14D790D96979A00A83057</string>
-				<string>FAB52C380D96A07600DAD8D5</string>
+				<string>FAB52C930D96A3B500DAD8D5</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -623,14 +641,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAB52BE20D969D2C00DAD8D5</string>
+				<string>FAB52C940D96A3B500DAD8D5</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>FAB52BE30D969D2C00DAD8D5</string>
-				<string>FAB52BE40D969D2C00DAD8D5</string>
-				<string>FAB52BE50D969D2C00DAD8D5</string>
-				<string>FAB52BE60D969D2C00DAD8D5</string>
-				<string>FAB52BE70D969D2C00DAD8D5</string>
+				<string>FAB52C950D96A3B500DAD8D5</string>
+				<string>FAB52C960D96A3B500DAD8D5</string>
+				<string>FAB52C970D96A3B500DAD8D5</string>
+				<string>FAB52C980D96A3B500DAD8D5</string>
+				<string>FAB52C990D96A3B500DAD8D5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

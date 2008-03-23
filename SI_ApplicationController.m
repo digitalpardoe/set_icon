@@ -11,4 +11,10 @@
 
 @implementation SI_ApplicationController
 
+- (void)awakeFromNib {
+	[NSApp activateIgnoringOtherApps:YES];
+	SI_WindowController *mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_Window"];
+	[mainWindow showWindow:self];
+}
+
 @end
