@@ -23,7 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>0.1</string>
 	<key>NSMainNibFile</key>
-	<string>SI_Main</string>
+	<string>SI_Menu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUCheckAtStartup</key>
