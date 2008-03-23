@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D11072A0486CEB800E47090 /* SI_Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* SI_Main.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */; };
 		FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
@@ -34,11 +34,11 @@
 		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SI_Main.nib; sourceTree = "<group>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Set Icon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Set Icon_Prefix.pch"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Set Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_Menu.nib; sourceTree = "<group>"; };
 		FAE9E7910D96998400854FC8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +131,7 @@
 		FAE9E8370D969A7700854FC8 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				29B97318FDCFA39411CA2CEA /* SI_Main.nib */,
+				FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* SI_Main.nib in Resources */,
 				FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */,
+				FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,17 +197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		29B97318FDCFA39411CA2CEA /* SI_Main.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
-			);
-			name = SI_Main.nib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
