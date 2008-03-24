@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BE0970D980AA700C1A937 /* Security.framework */; };
+		FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */; };
+		FA5BE2F80D9844A200C1A937 /* DPAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE2F70D9844A200C1A937 /* DPAuthorization.m */; };
 		FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E94D0D971B3F0062DD8D /* DPImageView.m */; };
 		FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */; };
 		FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C510D96A0EA00DAD8D5 /* SI_Main.nib */; };
@@ -43,6 +46,11 @@
 		32CA4F630368D1EE00C91783 /* Set Icon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Set Icon_Prefix.pch"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Set Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5BE0970D980AA700C1A937 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA5BE1720D981F4C00C1A937 /* DPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFileManager.h; sourceTree = "<group>"; };
+		FA5BE1730D981F4C00C1A937 /* DPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFileManager.m; sourceTree = "<group>"; };
+		FA5BE2F60D9844A200C1A937 /* DPAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAuthorization.h; sourceTree = "<group>"; };
+		FA5BE2F70D9844A200C1A937 /* DPAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAuthorization.m; sourceTree = "<group>"; };
 		FAA4E94C0D971B3F0062DD8D /* DPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageView.h; sourceTree = "<group>"; };
 		FAA4E94D0D971B3F0062DD8D /* DPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageView.m; sourceTree = "<group>"; };
 		FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_Menu.nib; sourceTree = "<group>"; };
@@ -64,6 +72,7 @@
 				FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */,
+				FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +132,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA5BE0970D980AA700C1A937 /* Security.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				FAE9E7910D96998400854FC8 /* Sparkle.framework */,
@@ -130,19 +140,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAA4E9440D971AF80062DD8D /* Custom Objects */ = {
+		FAA4E9440D971AF80062DD8D /* Custom Classes */ = {
 			isa = PBXGroup;
 			children = (
 				FAA4E94C0D971B3F0062DD8D /* DPImageView.h */,
 				FAA4E94D0D971B3F0062DD8D /* DPImageView.m */,
+				FA5BE1720D981F4C00C1A937 /* DPFileManager.h */,
+				FA5BE1730D981F4C00C1A937 /* DPFileManager.m */,
+				FA5BE2F60D9844A200C1A937 /* DPAuthorization.h */,
+				FA5BE2F70D9844A200C1A937 /* DPAuthorization.m */,
 			);
-			name = "Custom Objects";
+			name = "Custom Classes";
 			sourceTree = "<group>";
 		};
 		FAE9E7B00D9699C800854FC8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FAA4E9440D971AF80062DD8D /* Custom Objects */,
+				FAA4E9440D971AF80062DD8D /* Custom Classes */,
 				080E96DDFE201D6D7F000001 /* Application */,
 				29B97315FDCFA39411CA2CEA /* Misc */,
 			);
@@ -229,6 +243,8 @@
 				FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */,
 				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
 				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
+				FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */,
+				FA5BE2F80D9844A200C1A937 /* DPAuthorization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

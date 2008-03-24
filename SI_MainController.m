@@ -17,8 +17,34 @@
 
 - (IBAction)setIcon:(id)sender
 {
-	NSLog(@"%@", [[drivePath URL] relativePath]);
-	NSLog(@"%@", [theIcon imagePath]);
+	if (![theIcon imagePath])
+	{
+		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
+		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:@"No icon selected!"];
+		[alert setInformativeText:@"Please select an icon to apply to the drive by dragging it into the box."];
+		[alert setAlertStyle:NSCriticalAlertStyle];
+		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
+	} else {
+		NSFileManager *fileManager = [NSFileManager defaultManager];
+		[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+		[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+		[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
+		
+		NSTask *task;
+		task = [[NSTask alloc] init];
+		[task setLaunchPath: @"/usr/bin/killall"];
+		
+		NSArray *arguments;
+		arguments = [NSArray arrayWithObjects: @"Finder", nil];
+		[task setArguments: arguments];
+
+		NSPipe *pipe;
+		pipe = [NSPipe pipe];
+		[task setStandardOutput: pipe];
+	
+		[task launch];
+	}
 }
 
 @end

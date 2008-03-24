@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DPImageView.h"
+#import "DPFileManager.h"
 
 @interface SI_MainController : NSObject
 {
