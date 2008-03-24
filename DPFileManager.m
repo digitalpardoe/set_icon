@@ -8,23 +8,22 @@
 
 #import "DPFileManager.h"
 
+AuthorizationRef authorizationRef;
+
 @implementation NSFileManager(DPFileManager)
 
-- (BOOL)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst
+- (void)authenticate
 {
 	AuthorizationItem right = { "co.uk.digitalpardoe.Authenticate", 0, NULL, 0 };
 	AuthorizationRights rightSet = { 1, &right };
 	AuthorizationFlags myFlags = kAuthorizationFlagDefaults | kAuthorizationFlagInteractionAllowed | kAuthorizationFlagExtendRights;
-	AuthorizationRef authorizationRef;
 	OSStatus myStatus;
 	
 	myStatus = AuthorizationCreate(&rightSet, kAuthorizationEmptyEnvironment, myFlags, &authorizationRef);
-	
-	if (myStatus != errAuthorizationSuccess)
-	{
-		return false;
-	}
-	
+}
+
+- (void)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst
+{
 	FILE *pipe = NULL;
 	
 	char *buf = NULL;
@@ -36,24 +35,10 @@
 	char const *arguments[] = { "-c", buf, NULL };
 	
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
-	return true;
 }
 
-- (BOOL)setDriveIconWithAuthentication:(NSString *)dst
+- (void)setDriveIconWithAuthentication:(NSString *)dst
 {
-	AuthorizationItem right = { "co.uk.digitalpardoe.Authenticate", 0, NULL, 0 };
-	AuthorizationRights rightSet = { 1, &right };
-	AuthorizationFlags myFlags = kAuthorizationFlagDefaults | kAuthorizationFlagInteractionAllowed | kAuthorizationFlagExtendRights;
-	AuthorizationRef authorizationRef;
-	OSStatus myStatus;
-	
-	myStatus = AuthorizationCreate(&rightSet, kAuthorizationEmptyEnvironment, myFlags, &authorizationRef);
-	
-	if (myStatus != errAuthorizationSuccess)
-	{
-		return false;
-	}
-	
 	FILE *pipe = NULL;
 	
 	char *buf = NULL;
@@ -64,24 +49,10 @@
 	char const *arguments[] = { "-c", buf, NULL };
 	
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
-	return true;
 }
 
-- (BOOL)deletePathWithAuthentication:(NSString *)dst
+- (void)deletePathWithAuthentication:(NSString *)dst
 {
-	AuthorizationItem right = { "co.uk.digitalpardoe.Authenticate", 0, NULL, 0 };
-	AuthorizationRights rightSet = { 1, &right };
-	AuthorizationFlags myFlags = kAuthorizationFlagDefaults | kAuthorizationFlagInteractionAllowed | kAuthorizationFlagExtendRights;
-	AuthorizationRef authorizationRef;
-	OSStatus myStatus;
-	
-	myStatus = AuthorizationCreate(&rightSet, kAuthorizationEmptyEnvironment, myFlags, &authorizationRef);
-	
-	if (myStatus != errAuthorizationSuccess)
-	{
-		return false;
-	}
-	
 	FILE *pipe = NULL;
 	
 	char *buf = NULL;
@@ -92,7 +63,6 @@
 	char const *arguments[] = { "-c", buf, NULL };
 	
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
-	return true;
 }
 
 @end

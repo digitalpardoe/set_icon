@@ -27,6 +27,7 @@
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
 	} else {
 		NSFileManager *fileManager = [NSFileManager defaultManager];
+		[fileManager authenticate];
 		[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 		[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 		[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];

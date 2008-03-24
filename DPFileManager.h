@@ -7,12 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <Security/Security.h>
 
 @interface NSFileManager(DPFileManager)
 
-- (BOOL)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst;
-- (BOOL)setDriveIconWithAuthentication:(NSString *)dst;
-- (BOOL)deletePathWithAuthentication:(NSString *)dst;
+- (void)authenticate;
+- (void)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst;
+- (void)setDriveIconWithAuthentication:(NSString *)dst;
+- (void)deletePathWithAuthentication:(NSString *)dst;
 
 @end
