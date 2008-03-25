@@ -24,6 +24,9 @@
     MAAttachedWindow *driveWindow;
 	MAAttachedWindow *iconWindow;
 	MAAttachedWindow *buttonWindow;
+	
+	NSUserDefaults *defaults;
+	BOOL showToolTips;
 }
 
 - (IBAction)setIcon:(id)sender;

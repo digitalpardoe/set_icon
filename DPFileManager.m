@@ -41,9 +41,12 @@ AuthorizationRef authorizationRef;
 {
 	FILE *pipe = NULL;
 	
+	NSString *toolPath = [[NSBundle mainBundle] pathForAuxiliaryExecutable:@"SetHasCustomIcon"];
+	
 	char *buf = NULL;
-	asprintf(&buf, "SetFile -a C \"$DST_PATH\"");
+	asprintf(&buf, "\"$TOOL_PATH\" -C \"$DST_PATH\"");
 			 
+	setenv("TOOL_PATH", [toolPath UTF8String], 1);
 	setenv("DST_PATH", [dst UTF8String], 1);
 	
 	char const *arguments[] = { "-c", buf, NULL };

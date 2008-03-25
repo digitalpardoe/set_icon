@@ -22,6 +22,16 @@
 		FAB52C680D96A14100DAD8D5 /* SI_MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C650D96A14100DAD8D5 /* SI_MenuController.m */; };
 		FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */; };
 		FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */; };
+		FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD83D20D9910DF00C5CFF6 /* SS_PrefsController.m */; };
+		FADD842A0D9912A800C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Resources */ = {isa = PBXBuildFile; fileRef = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */; };
+		FADD84980D99157200C5CFF6 /* SI_UpdatePrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */; };
+		FADD85400D991A8800C5CFF6 /* SI_UpdatesView.nib in Resources */ = {isa = PBXBuildFile; fileRef = FADD849D0D99164F00C5CFF6 /* SI_UpdatesView.nib */; };
+		FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Resources */ = {isa = PBXBuildFile; fileRef = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */; };
+		FADD85D70D991E6900C5CFF6 /* SI_ToolTipsView.nib in Resources */ = {isa = PBXBuildFile; fileRef = FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */; };
+		FADD86430D9921C000C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FADD86460D9921C300C5CFF6 /* SI_ToolTipPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */; };
+		FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */; };
 		FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
@@ -35,6 +45,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = FA1602F20D98816700C80C50;
 			remoteInfo = SetHasCustomIcon;
+		};
+		FADD84310D99130800C5CFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADD84220D99123E00C5CFF6;
+			remoteInfo = Updates;
+		};
+		FADD85D00D991E1E00C5CFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADD85C10D991DB500C5CFF6;
+			remoteInfo = ToolTips;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -90,6 +114,21 @@
 		FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_WindowController.m; sourceTree = "<group>"; };
 		FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MainController.h; sourceTree = "<group>"; };
 		FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_MainController.m; sourceTree = "<group>"; };
+		FADD83D10D9910DF00C5CFF6 /* SS_PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PrefsController.h; sourceTree = "<group>"; };
+		FADD83D20D9910DF00C5CFF6 /* SS_PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_PrefsController.m; sourceTree = "<group>"; };
+		FADD83D50D99116600C5CFF6 /* SS_PreferencePaneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PreferencePaneProtocol.h; sourceTree = "<group>"; };
+		FADD841A0D9911EA00C5CFF6 /* Updates-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Updates-Info.plist"; sourceTree = "<group>"; };
+		FADD84230D99123E00C5CFF6 /* Updates.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Updates.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD84960D99157200C5CFF6 /* SI_UpdatePrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_UpdatePrefController.h; sourceTree = "<group>"; };
+		FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_UpdatePrefController.m; sourceTree = "<group>"; };
+		FADD849D0D99164F00C5CFF6 /* SI_UpdatesView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_UpdatesView.nib; sourceTree = "<group>"; };
+		FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolTips.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD85C30D991DB500C5CFF6 /* ToolTips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolTips-Info.plist"; sourceTree = "<group>"; };
+		FADD85CC0D991E0B00C5CFF6 /* SI_ToolTipPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_ToolTipPrefController.h; sourceTree = "<group>"; };
+		FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ToolTipPrefController.m; sourceTree = "<group>"; };
+		FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_ToolTipsView.nib; sourceTree = "<group>"; };
+		FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_StartupChecks.h; sourceTree = "<group>"; };
+		FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_StartupChecks.m; sourceTree = "<group>"; };
 		FAE9E7910D96998400854FC8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +152,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADD84210D99123E00C5CFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD842A0D9912A800C5CFF6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD85C00D991DB500C5CFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD86430D9921C000C5CFF6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,6 +180,8 @@
 				FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */,
 				FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */,
 				FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */,
+				FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */,
+				FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -134,6 +191,8 @@
 			children = (
 				8D1107320486CEB800E47090 /* Set Icon.app */,
 				FA1602F30D98816700C80C50 /* SetHasCustomIcon */,
+				FADD84230D99123E00C5CFF6 /* Updates.preferencePane */,
+				FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +203,7 @@
 				FAE9E7B00D9699C800854FC8 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				FA1603C20D9881D600C80C50 /* SetHasCustomIcon */,
+				FADD842F0D9912C300C5CFF6 /* Preference Panes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -207,6 +267,7 @@
 		FA5BE4940D986E0300C1A937 /* Third Party Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FADD83D60D99116800C5CFF6 /* SS_PrefsController */,
 				FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */,
 				FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */,
 			);
@@ -222,6 +283,47 @@
 				FA5BE1730D981F4C00C1A937 /* DPFileManager.m */,
 			);
 			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		FADD83D60D99116800C5CFF6 /* SS_PrefsController */ = {
+			isa = PBXGroup;
+			children = (
+				FADD83D50D99116600C5CFF6 /* SS_PreferencePaneProtocol.h */,
+				FADD83D10D9910DF00C5CFF6 /* SS_PrefsController.h */,
+				FADD83D20D9910DF00C5CFF6 /* SS_PrefsController.m */,
+			);
+			name = SS_PrefsController;
+			sourceTree = "<group>";
+		};
+		FADD842F0D9912C300C5CFF6 /* Preference Panes */ = {
+			isa = PBXGroup;
+			children = (
+				FADD85C90D991DEE00C5CFF6 /* ToolTips */,
+				FADD84300D9912D700C5CFF6 /* Updates */,
+			);
+			name = "Preference Panes";
+			sourceTree = "<group>";
+		};
+		FADD84300D9912D700C5CFF6 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				FADD849D0D99164F00C5CFF6 /* SI_UpdatesView.nib */,
+				FADD841A0D9911EA00C5CFF6 /* Updates-Info.plist */,
+				FADD84960D99157200C5CFF6 /* SI_UpdatePrefController.h */,
+				FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */,
+			);
+			name = Updates;
+			sourceTree = "<group>";
+		};
+		FADD85C90D991DEE00C5CFF6 /* ToolTips */ = {
+			isa = PBXGroup;
+			children = (
+				FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */,
+				FADD85C30D991DB500C5CFF6 /* ToolTips-Info.plist */,
+				FADD85CC0D991E0B00C5CFF6 /* SI_ToolTipPrefController.h */,
+				FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */,
+			);
+			name = ToolTips;
 			sourceTree = "<group>";
 		};
 		FAE9E7B00D9699C800854FC8 /* Sources */ = {
@@ -271,6 +373,8 @@
 			);
 			dependencies = (
 				FA1603C00D9881C800C80C50 /* PBXTargetDependency */,
+				FADD84320D99130800C5CFF6 /* PBXTargetDependency */,
+				FADD85D10D991E1E00C5CFF6 /* PBXTargetDependency */,
 			);
 			name = "Set Icon";
 			productInstallPath = "$(HOME)/Applications";
@@ -294,6 +398,40 @@
 			productReference = FA1602F30D98816700C80C50 /* SetHasCustomIcon */;
 			productType = "com.apple.product-type.tool";
 		};
+		FADD84220D99123E00C5CFF6 /* Updates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD84260D99125C00C5CFF6 /* Build configuration list for PBXNativeTarget "Updates" */;
+			buildPhases = (
+				FADD841F0D99123E00C5CFF6 /* Resources */,
+				FADD84200D99123E00C5CFF6 /* Sources */,
+				FADD84210D99123E00C5CFF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Updates;
+			productName = Updates;
+			productReference = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FADD85C10D991DB500C5CFF6 /* ToolTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD85C60D991DB600C5CFF6 /* Build configuration list for PBXNativeTarget "ToolTips" */;
+			buildPhases = (
+				FADD85BE0D991DB500C5CFF6 /* Resources */,
+				FADD85BF0D991DB500C5CFF6 /* Sources */,
+				FADD85C00D991DB500C5CFF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolTips;
+			productName = ToolTips;
+			productReference = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -308,6 +446,8 @@
 			targets = (
 				8D1107260486CEB800E47090 /* Set Icon */,
 				FA1602F20D98816700C80C50 /* SetHasCustomIcon */,
+				FADD84220D99123E00C5CFF6 /* Updates */,
+				FADD85C10D991DB500C5CFF6 /* ToolTips */,
 			);
 		};
 /* End PBXProject section */
@@ -317,10 +457,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Resources */,
+				FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Resources */,
 				FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */,
 				FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */,
 				FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */,
 				FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD841F0D99123E00C5CFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD85400D991A8800C5CFF6 /* SI_UpdatesView.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD85BE0D991DB500C5CFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD85D70D991E6900C5CFF6 /* SI_ToolTipsView.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +496,8 @@
 				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
 				FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */,
 				FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */,
+				FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */,
+				FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +509,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADD84200D99123E00C5CFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD84980D99157200C5CFF6 /* SI_UpdatePrefController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD85BF0D991DB500C5CFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD86460D9921C300C5CFF6 /* SI_ToolTipPrefController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -356,6 +532,16 @@
 			isa = PBXTargetDependency;
 			target = FA1602F20D98816700C80C50 /* SetHasCustomIcon */;
 			targetProxy = FA1603BF0D9881C800C80C50 /* PBXContainerItemProxy */;
+		};
+		FADD84320D99130800C5CFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADD84220D99123E00C5CFF6 /* Updates */;
+			targetProxy = FADD84310D99130800C5CFF6 /* PBXContainerItemProxy */;
+		};
+		FADD85D10D991E1E00C5CFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADD85C10D991DB500C5CFF6 /* ToolTips */;
+			targetProxy = FADD85D00D991E1E00C5CFF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -457,6 +643,110 @@
 			};
 			name = Release;
 		};
+		FADD84240D99123E00C5CFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Updates-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Updates;
+				WRAPPER_EXTENSION = preferencePane;
+			};
+			name = Debug;
+		};
+		FADD84250D99123E00C5CFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Updates-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Updates;
+				WRAPPER_EXTENSION = preferencePane;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		FADD85C40D991DB500C5CFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ToolTips-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ToolTips;
+				WRAPPER_EXTENSION = preferencePane;
+			};
+			name = Debug;
+		};
+		FADD85C50D991DB500C5CFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ToolTips-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ToolTips;
+				WRAPPER_EXTENSION = preferencePane;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -483,6 +773,24 @@
 			buildConfigurations = (
 				FA1602F50D98816800C80C50 /* Debug */,
 				FA1602F60D98816800C80C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD84260D99125C00C5CFF6 /* Build configuration list for PBXNativeTarget "Updates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD84240D99123E00C5CFF6 /* Debug */,
+				FADD84250D99123E00C5CFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD85C60D991DB600C5CFF6 /* Build configuration list for PBXNativeTarget "ToolTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD85C40D991DB500C5CFF6 /* Debug */,
+				FADD85C50D991DB500C5CFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,25 +12,33 @@
 
 - (void)awakeFromNib
 {
+	defaults = [NSUserDefaults standardUserDefaults];
+	showToolTips = [defaults boolForKey:@"ShowToolTips"];
+	
 	[theWindow center];
 	
-	NSPoint drivePoint = NSMakePoint(NSMaxX([drivePath frame]), NSMidY([drivePath frame]));
-	driveWindow = [[MAAttachedWindow alloc] initWithView:driveView attachedToPoint:drivePoint inWindow:theWindow onSide:2 atDistance:10];
-	[driveWindow setViewMargin:10];
-	[driveWindow setHasShadow:FALSE];
-	[theWindow addChildWindow:driveWindow ordered:NSWindowAbove];
+	if (showToolTips == TRUE)
+	{
+		NSPoint drivePoint = NSMakePoint(NSMaxX([drivePath frame]), NSMidY([drivePath frame]));
+		driveWindow = [[MAAttachedWindow alloc] initWithView:driveView attachedToPoint:drivePoint inWindow:theWindow onSide:2 atDistance:10];
+		[driveWindow setViewMargin:10];
+		[driveWindow setHasShadow:FALSE];
+		[theWindow addChildWindow:driveWindow ordered:NSWindowAbove];
 	
-	NSPoint iconPoint = NSMakePoint(NSMaxX([theIcon frame]), NSMidY([theIcon frame]));
-	iconWindow = [[MAAttachedWindow alloc] initWithView:iconView attachedToPoint:iconPoint inWindow:theWindow onSide:2 atDistance:10];
-	[iconWindow setViewMargin:8];
-	[iconWindow setHasShadow:FALSE];
-	[theWindow addChildWindow:iconWindow ordered:NSWindowAbove];
+		NSPoint iconPoint = NSMakePoint(NSMaxX([theIcon frame]), NSMidY([theIcon frame]));
+		iconWindow = [[MAAttachedWindow alloc] initWithView:iconView attachedToPoint:iconPoint inWindow:theWindow onSide:2 atDistance:10];
+		[iconWindow setViewMargin:8];
+		[iconWindow setHasShadow:FALSE];
+		[theWindow addChildWindow:iconWindow ordered:NSWindowAbove];
 	
-	NSPoint buttonPoint = NSMakePoint(NSMaxX([setIconButton frame]), NSMidY([setIconButton frame]));
-	buttonWindow = [[MAAttachedWindow alloc] initWithView:buttonView attachedToPoint:buttonPoint inWindow:theWindow onSide:2 atDistance:10];
-	[buttonWindow setViewMargin:10];
-	[buttonWindow setHasShadow:FALSE];
-	[theWindow addChildWindow:buttonWindow ordered:NSWindowAbove];
+		NSPoint buttonPoint = NSMakePoint(NSMaxX([setIconButton frame]), NSMidY([setIconButton frame]));
+		buttonWindow = [[MAAttachedWindow alloc] initWithView:buttonView attachedToPoint:buttonPoint inWindow:theWindow onSide:2 atDistance:10];
+		[buttonWindow setViewMargin:10];
+		[buttonWindow setHasShadow:FALSE];
+		[theWindow addChildWindow:buttonWindow ordered:NSWindowAbove];
+	}
+	
+	[theWindow makeKeyAndOrderFront:self];
 }
 
 - (IBAction)setIcon:(id)sender
@@ -78,6 +86,8 @@
     [driveWindow release];
 	[iconWindow release];
 	[buttonWindow release];
+	
+	[defaults release];
 	
 	[super dealloc];
 }

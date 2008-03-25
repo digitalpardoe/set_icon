@@ -8,9 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 #import "SI_WindowController.h"
+#import "SI_StartupChecks.h"
+#import "SS_PrefsController.h"
 
 @interface SI_MenuController : NSObject
+{
+	SS_PrefsController *prefs;
+}
 
 - (IBAction)preferences:(id)sender;
+- (IBAction)donate:(id)sender;
 
 @end
