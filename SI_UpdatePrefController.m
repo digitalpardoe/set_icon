@@ -40,7 +40,7 @@
 
 - (NSImage *)paneIcon
 {
-    return [[[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForImageResource:@"Update_Prefs"]] autorelease];
+    return [[[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForImageResource:@"SI_UpdateIcon"]] autorelease];
 }
 
 

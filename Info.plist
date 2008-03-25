@@ -9,7 +9,7 @@
 	<key>CFBundleGetInfoString</key>
 	<string>Set Icon 0.1, Copyright © digital:pardoe, 2008</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>SI_Icon.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>uk.co.digitalpardoe.SetIcon</string>
 	<key>CFBundleInfoDictionaryVersion</key>

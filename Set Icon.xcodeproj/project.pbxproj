@@ -24,14 +24,17 @@
 		FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */; };
 		FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD83D20D9910DF00C5CFF6 /* SS_PrefsController.m */; };
 		FADD842A0D9912A800C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Resources */ = {isa = PBXBuildFile; fileRef = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */; };
+		FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Copy Preference Panes */ = {isa = PBXBuildFile; fileRef = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */; };
 		FADD84980D99157200C5CFF6 /* SI_UpdatePrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */; };
 		FADD85400D991A8800C5CFF6 /* SI_UpdatesView.nib in Resources */ = {isa = PBXBuildFile; fileRef = FADD849D0D99164F00C5CFF6 /* SI_UpdatesView.nib */; };
-		FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Resources */ = {isa = PBXBuildFile; fileRef = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */; };
+		FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Copy Preference Panes */ = {isa = PBXBuildFile; fileRef = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */; };
 		FADD85D70D991E6900C5CFF6 /* SI_ToolTipsView.nib in Resources */ = {isa = PBXBuildFile; fileRef = FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */; };
 		FADD86430D9921C000C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FADD86460D9921C300C5CFF6 /* SI_ToolTipPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */; };
 		FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */; };
+		FADD871F0D992DF700C5CFF6 /* SI_UpdateIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */; };
+		FADD87210D992E2300C5CFF6 /* SI_ToolTipIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */; };
+		FADD87550D9947C500C5CFF6 /* SI_Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FADD87540D9947C500C5CFF6 /* SI_Icon.icns */; };
 		FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
@@ -72,6 +75,18 @@
 				FA1603E70D98841800C80C50 /* SetHasCustomIcon in Copy Executables */,
 			);
 			name = "Copy Executables";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADD871B0D992D8E00C5CFF6 /* Copy Preference Panes */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "../Preference Panes";
+			dstSubfolderSpec = 7;
+			files = (
+				FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Copy Preference Panes */,
+				FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Copy Preference Panes */,
+			);
+			name = "Copy Preference Panes";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAE9E8350D969A5500854FC8 /* Copy Frameworks */ = {
@@ -129,6 +144,9 @@
 		FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_ToolTipsView.nib; sourceTree = "<group>"; };
 		FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_StartupChecks.h; sourceTree = "<group>"; };
 		FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_StartupChecks.m; sourceTree = "<group>"; };
+		FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_UpdateIcon.tif; sourceTree = "<group>"; };
+		FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_ToolTipIcon.tif; sourceTree = "<group>"; };
+		FADD87540D9947C500C5CFF6 /* SI_Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SI_Icon.icns; sourceTree = "<group>"; };
 		FAE9E7910D96998400854FC8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +220,7 @@
 			children = (
 				FAE9E7B00D9699C800854FC8 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				FADD87530D9947A800C5CFF6 /* Images */,
 				FA1603C20D9881D600C80C50 /* SetHasCustomIcon */,
 				FADD842F0D9912C300C5CFF6 /* Preference Panes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -307,6 +326,7 @@
 		FADD84300D9912D700C5CFF6 /* Updates */ = {
 			isa = PBXGroup;
 			children = (
+				FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */,
 				FADD849D0D99164F00C5CFF6 /* SI_UpdatesView.nib */,
 				FADD841A0D9911EA00C5CFF6 /* Updates-Info.plist */,
 				FADD84960D99157200C5CFF6 /* SI_UpdatePrefController.h */,
@@ -318,12 +338,21 @@
 		FADD85C90D991DEE00C5CFF6 /* ToolTips */ = {
 			isa = PBXGroup;
 			children = (
+				FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */,
 				FADD85D60D991E6900C5CFF6 /* SI_ToolTipsView.nib */,
 				FADD85C30D991DB500C5CFF6 /* ToolTips-Info.plist */,
 				FADD85CC0D991E0B00C5CFF6 /* SI_ToolTipPrefController.h */,
 				FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */,
 			);
 			name = ToolTips;
+			sourceTree = "<group>";
+		};
+		FADD87530D9947A800C5CFF6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FADD87540D9947C500C5CFF6 /* SI_Icon.icns */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		FAE9E7B00D9699C800854FC8 /* Sources */ = {
@@ -368,6 +397,7 @@
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				FAE9E8350D969A5500854FC8 /* Copy Frameworks */,
 				FA1603E60D98840A00C80C50 /* Copy Executables */,
+				FADD871B0D992D8E00C5CFF6 /* Copy Preference Panes */,
 			);
 			buildRules = (
 			);
@@ -457,12 +487,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Resources */,
-				FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Resources */,
 				FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */,
 				FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */,
 				FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */,
 				FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */,
+				FADD87550D9947C500C5CFF6 /* SI_Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADD85400D991A8800C5CFF6 /* SI_UpdatesView.nib in Resources */,
+				FADD871F0D992DF700C5CFF6 /* SI_UpdateIcon.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADD85D70D991E6900C5CFF6 /* SI_ToolTipsView.nib in Resources */,
+				FADD87210D992E2300C5CFF6 /* SI_ToolTipIcon.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,7 +40,7 @@
 
 - (NSImage *)paneIcon
 {
-    return [[[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForImageResource:@"ToolTip_Prefs"]] autorelease];
+    return [[[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForImageResource:@"SI_ToolTipIcon"]] autorelease];
 }
 
 
