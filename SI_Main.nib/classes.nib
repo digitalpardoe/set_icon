@@ -38,6 +38,8 @@
 				<string>DPImageView</string>
 				<key>theWindow</key>
 				<string>NSWindow</string>
+				<key>windowView</key>
+				<string>NSView</string>
 			</dict>
 			<key>SUPERCLASS</key>
 			<string>NSObject</string>

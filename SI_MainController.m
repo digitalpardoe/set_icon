@@ -36,6 +36,12 @@
 		[buttonWindow setViewMargin:10];
 		[buttonWindow setHasShadow:FALSE];
 		[theWindow addChildWindow:buttonWindow ordered:NSWindowAbove];
+		
+		NSPoint windowPoint = NSMakePoint(NSMidX([setIconButton frame]), NSMaxY([setIconButton frame]));
+		mainWindow = [[MAAttachedWindow alloc] initWithView:windowView attachedToPoint:windowPoint inWindow:theWindow onSide:1 atDistance:50];
+		[mainWindow setViewMargin:10];
+		[mainWindow setHasShadow:FALSE];
+		[theWindow addChildWindow:mainWindow ordered:NSWindowAbove];
 	}
 	
 	[theWindow makeKeyAndOrderFront:self];

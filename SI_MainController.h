@@ -20,15 +20,18 @@
 	IBOutlet NSView *driveView;
 	IBOutlet NSView *iconView;
 	IBOutlet NSView *buttonView;
+	IBOutlet NSView *windowView;
 	
     MAAttachedWindow *driveWindow;
 	MAAttachedWindow *iconWindow;
 	MAAttachedWindow *buttonWindow;
+	MAAttachedWindow *mainWindow;
 	
 	NSUserDefaults *defaults;
 	BOOL showToolTips;
 }
 
 - (IBAction)setIcon:(id)sender;
+- (IBAction)help:(id)sender;
 
 @end
