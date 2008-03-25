@@ -280,15 +280,13 @@
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>FA5BE5660D98782E00C1A937</string>
-								<string>1C77FABC04509CD000000102</string>
-								<string>1C3E0DCA080725EA00A55177</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
-									<integer>24</integer>
-									<integer>20</integer>
+									<integer>16</integer>
+									<integer>10</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -323,12 +321,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>FAC14D790D96979A00A83057</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MAAttachedWindow.h</string>
+								<string>SI_MainController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -336,27 +336,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FAC14D7A0D96979A00A83057</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MAAttachedWindow.h</string>
+										<string>SI_MainController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA5BE56E0D98784B00C1A937</string>
+										<string>FA5BE5C90D987A6200C1A937</string>
 										<key>history</key>
 										<array>
 											<string>FA5BE4650D986C6900C1A937</string>
-											<string>FA5BE4670D986C6900C1A937</string>
-											<string>FA5BE4680D986C6900C1A937</string>
-											<string>FA5BE4690D986C6900C1A937</string>
-											<string>FA5BE46A0D986C6900C1A937</string>
-											<string>FA5BE46C0D986C6900C1A937</string>
 											<string>FA5BE4D00D98711100C1A937</string>
-											<string>FA5BE4FB0D98730000C1A937</string>
 											<string>FA5BE51D0D98743900C1A937</string>
 											<string>FA5BE5290D98748600C1A937</string>
-											<string>FA5BE5580D9877AD00C1A937</string>
-											<string>FA5BE5670D98782E00C1A937</string>
 											<string>FA5BE56C0D98784B00C1A937</string>
-											<string>FA5BE4D10D98711100C1A937</string>
+											<string>FA5BE5AB0D9879A200C1A937</string>
+											<string>FA5BE5AC0D9879A200C1A937</string>
+											<string>FA5BE5AD0D9879A200C1A937</string>
+											<string>FA5BE5AE0D9879A200C1A937</string>
+											<string>FA5BE5AF0D9879A200C1A937</string>
+											<string>FA5BE5B00D9879A200C1A937</string>
+											<string>FA5BE5B10D9879A200C1A937</string>
+											<string>FA5BE5B20D9879A200C1A937</string>
+											<string>FA5BE5C60D987A5E00C1A937</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -447,6 +447,21 @@
 											<string>FA5BE55D0D9877AD00C1A937</string>
 											<string>FA5BE5680D98782E00C1A937</string>
 											<string>FA5BE56D0D98784B00C1A937</string>
+											<string>FA5BE5B40D9879A200C1A937</string>
+											<string>FA5BE5B50D9879A200C1A937</string>
+											<string>FA5BE5B60D9879A200C1A937</string>
+											<string>FA5BE5B70D9879A200C1A937</string>
+											<string>FA5BE5B80D9879A200C1A937</string>
+											<string>FA5BE5B90D9879A200C1A937</string>
+											<string>FA5BE5BA0D9879A200C1A937</string>
+											<string>FA5BE5BB0D9879A200C1A937</string>
+											<string>FA5BE5BC0D9879A200C1A937</string>
+											<string>FA5BE5BD0D9879A200C1A937</string>
+											<string>FA5BE5BE0D9879A200C1A937</string>
+											<string>FA5BE5BF0D9879A200C1A937</string>
+											<string>FA5BE5C00D9879A200C1A937</string>
+											<string>FA5BE5C10D9879A200C1A937</string>
+											<string>FA5BE5C20D9879A200C1A937</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -507,8 +522,6 @@
 									<string>PBXProjectFindModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXCVSModuleFilterTypeKey</key>

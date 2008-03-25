@@ -66,4 +66,20 @@
 	}
 }
 
+- (void)dealloc
+{
+	[theWindow release];
+	[drivePath release];
+    [theIcon release];
+	[setIconButton release];
+	[driveView release];
+	[iconView release];
+	[buttonView release];
+    [driveWindow release];
+	[iconWindow release];
+	[buttonWindow release];
+	
+	[super dealloc];
+}
+
 @end
