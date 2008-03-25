@@ -11,6 +11,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BE0970D980AA700C1A937 /* Security.framework */; };
 		FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */; };
+		FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA5BE4920D986C9700C1A937 /* Credits.rtf */; };
+		FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */; };
 		FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E94D0D971B3F0062DD8D /* DPImageView.m */; };
 		FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */; };
 		FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAB52C510D96A0EA00DAD8D5 /* SI_Main.nib */; };
@@ -48,6 +50,9 @@
 		FA5BE0970D980AA700C1A937 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FA5BE1720D981F4C00C1A937 /* DPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFileManager.h; sourceTree = "<group>"; };
 		FA5BE1730D981F4C00C1A937 /* DPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFileManager.m; sourceTree = "<group>"; };
+		FA5BE4920D986C9700C1A937 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
 		FAA4E94C0D971B3F0062DD8D /* DPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageView.h; sourceTree = "<group>"; };
 		FAA4E94D0D971B3F0062DD8D /* DPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageView.m; sourceTree = "<group>"; };
 		FAB52C3A0D96A08C00DAD8D5 /* SI_Menu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SI_Menu.nib; sourceTree = "<group>"; };
@@ -137,6 +142,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA5BE4940D986E0300C1A937 /* Third Party Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */,
+				FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */,
+			);
+			name = "Third Party Classes";
+			sourceTree = "<group>";
+		};
 		FAA4E9440D971AF80062DD8D /* Custom Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +165,7 @@
 		FAE9E7B00D9699C800854FC8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA5BE4940D986E0300C1A937 /* Third Party Classes */,
 				FAA4E9440D971AF80062DD8D /* Custom Classes */,
 				080E96DDFE201D6D7F000001 /* Application */,
 				29B97315FDCFA39411CA2CEA /* Misc */,
@@ -161,6 +176,7 @@
 		FAE9E8360D969A6900854FC8 /* Text & Property List */ = {
 			isa = PBXGroup;
 			children = (
+				FA5BE4920D986C9700C1A937 /* Credits.rtf */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -223,6 +239,7 @@
 				FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */,
 				FAB52C3B0D96A08C00DAD8D5 /* SI_Menu.nib in Resources */,
 				FAB52C520D96A0EA00DAD8D5 /* SI_Main.nib in Resources */,
+				FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +256,7 @@
 				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
 				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
 				FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */,
+				FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

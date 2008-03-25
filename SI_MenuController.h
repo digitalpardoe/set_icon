@@ -10,7 +10,7 @@
 #import "SI_WindowController.h"
 
 @interface SI_MenuController : NSObject
-{
-}
+
+- (IBAction)preferences:(id)sender;
 
 @end

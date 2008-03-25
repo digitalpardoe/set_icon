@@ -18,4 +18,8 @@
 	[mainWindow showWindow:self];
 }
 
+- (IBAction)preferences:(id)sender
+{
+}
+
 @end

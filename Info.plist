@@ -29,6 +29,6 @@
 	<key>SUCheckAtStartup</key>
 	<false/>
 	<key>SUFeedURL</key>
-	<string>http://digitalpardoe.co.uk/appcast/main/Set+File</string>
+	<string>http://digitalpardoe.co.uk/appcast/main/Set%20File</string>
 </dict>
 </plist>

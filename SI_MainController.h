@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "DPImageView.h"
 #import "DPFileManager.h"
+#import "MAAttachedWindow.h"
 
 @interface SI_MainController : NSObject
 {
@@ -16,6 +17,13 @@
 	IBOutlet NSPathControl *drivePath;
     IBOutlet DPImageView *theIcon;
 	IBOutlet NSButton *setIconButton;
+	IBOutlet NSView *driveView;
+	IBOutlet NSView *iconView;
+	IBOutlet NSView *buttonView;
+	
+    MAAttachedWindow *driveWindow;
+	MAAttachedWindow *iconWindow;
+	MAAttachedWindow *buttonWindow;
 }
 
 - (IBAction)setIcon:(id)sender;

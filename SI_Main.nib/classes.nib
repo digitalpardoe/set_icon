@@ -24,8 +24,14 @@
 			<string>ObjC</string>
 			<key>OUTLETS</key>
 			<dict>
+				<key>buttonView</key>
+				<string>NSView</string>
 				<key>drivePath</key>
 				<string>NSPathControl</string>
+				<key>driveView</key>
+				<string>NSView</string>
+				<key>iconView</key>
+				<string>NSView</string>
 				<key>setIconButton</key>
 				<string>NSButton</string>
 				<key>theIcon</key>
