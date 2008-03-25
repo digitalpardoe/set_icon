@@ -31,7 +31,4 @@
 	BOOL showToolTips;
 }
 
-- (IBAction)setIcon:(id)sender;
-- (IBAction)help:(id)sender;
-
 @end
