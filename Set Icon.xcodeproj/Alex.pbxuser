@@ -9,7 +9,7 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecture = i386;
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = FAC14D6D0D96979800A83057 /* Set Icon */;
 		activeTarget = 8D1107260486CEB800E47090 /* Set Icon */;
 		addToTargets = (
@@ -234,6 +234,10 @@
 			FADD88220D99522600C5CFF6 /* PBXTextBookmark */ = FADD88220D99522600C5CFF6 /* PBXTextBookmark */;
 			FADD88230D99522600C5CFF6 /* PBXTextBookmark */ = FADD88230D99522600C5CFF6 /* PBXTextBookmark */;
 			FADD88240D99522600C5CFF6 /* PBXTextBookmark */ = FADD88240D99522600C5CFF6 /* PBXTextBookmark */;
+			FADD88270D99523F00C5CFF6 /* PBXTextBookmark */ = FADD88270D99523F00C5CFF6 /* PBXTextBookmark */;
+			FADD882B0D99534E00C5CFF6 /* PBXTextBookmark */ = FADD882B0D99534E00C5CFF6 /* PBXTextBookmark */;
+			FADD88300D99538B00C5CFF6 /* PBXTextBookmark */ = FADD88300D99538B00C5CFF6 /* PBXTextBookmark */;
+			FADD88340D99552800C5CFF6 /* PBXTextBookmark */ = FADD88340D99552800C5CFF6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FAC14D7F0D96979A00A83057 /* Source Control */;
 		userBuildSettings = {
@@ -1355,6 +1359,46 @@
 		vrLoc = 1577;
 	};
 	FADD88240D99522600C5CFF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */;
+		name = "SI_MainController.h: 32";
+		rLen = 0;
+		rLoc = 720;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	FADD88270D99523F00C5CFF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */;
+		name = "SI_MainController.h: 32";
+		rLen = 0;
+		rLoc = 720;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	FADD882B0D99534E00C5CFF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */;
+		name = "SI_MainController.h: 32";
+		rLen = 0;
+		rLoc = 720;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	FADD88300D99538B00C5CFF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */;
+		name = "SI_MainController.h: 32";
+		rLen = 0;
+		rLoc = 720;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	FADD88340D99552800C5CFF6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */;
 		name = "SI_MainController.h: 32";
