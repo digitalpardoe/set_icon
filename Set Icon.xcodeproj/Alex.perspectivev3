@@ -288,14 +288,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>14</integer>
-									<integer>1</integer>
+									<integer>56</integer>
+									<integer>55</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {267, 1040}}</string>
+							<string>{{0, 31}, {267, 1040}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -325,12 +324,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>FAC14D790D96979A00A83057</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SI_MainController.h</string>
+								<string>Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,11 +339,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FAC14D7A0D96979A00A83057</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SI_MainController.h</string>
+										<string>Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FADD88340D99552800C5CFF6</string>
+										<string>FAC486740D9957C7003DD339</string>
 										<key>history</key>
 										<array>
 											<string>FADD837F0D990DD100C5CFF6</string>
@@ -364,7 +365,6 @@
 											<string>FADD872A0D992E6900C5CFF6</string>
 											<string>FADD872C0D992E6900C5CFF6</string>
 											<string>FADD87590D9947DF00C5CFF6</string>
-											<string>FADD875A0D9947DF00C5CFF6</string>
 											<string>FADD87780D994AAE00C5CFF6</string>
 											<string>FADD87790D994AAE00C5CFF6</string>
 											<string>FADD87870D994AEB00C5CFF6</string>
@@ -375,7 +375,8 @@
 											<string>FADD88030D9951C500C5CFF6</string>
 											<string>FADD881D0D99522600C5CFF6</string>
 											<string>FADD881E0D99522600C5CFF6</string>
-											<string>FADD881F0D99522600C5CFF6</string>
+											<string>FAC4865F0D99577E003DD339</string>
+											<string>FAC486600D99577E003DD339</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -410,18 +411,7 @@
 											<string>FADD87350D992E6900C5CFF6</string>
 											<string>FADD877B0D994AAE00C5CFF6</string>
 											<string>FADD877C0D994AAE00C5CFF6</string>
-											<string>FADD88060D9951C500C5CFF6</string>
-											<string>FADD88070D9951C500C5CFF6</string>
-											<string>FADD88080D9951C500C5CFF6</string>
-											<string>FADD88090D9951C500C5CFF6</string>
-											<string>FADD880A0D9951C500C5CFF6</string>
-											<string>FADD880B0D9951C500C5CFF6</string>
-											<string>FADD880C0D9951C500C5CFF6</string>
-											<string>FADD880D0D9951C500C5CFF6</string>
-											<string>FADD88200D99522600C5CFF6</string>
-											<string>FADD88210D99522600C5CFF6</string>
-											<string>FADD88220D99522600C5CFF6</string>
-											<string>FADD88230D99522600C5CFF6</string>
+											<string>FAC486610D99577E003DD339</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -460,7 +450,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1631, 149}}</string>
+										<string>{{10, 27}, {295, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -482,8 +472,6 @@
 									<string>PBXProjectFindModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXCVSModuleFilterTypeKey</key>
@@ -567,11 +555,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FADD880F0D9951C500C5CFF6</string>
+				<string>FAC486630D99577E003DD339</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>FADD88100D9951C500C5CFF6</string>
+				<string>FAC486640D99577E003DD339</string>
 				<string>FAC14D790D96979A00A83057</string>
-				<string>FADD88110D9951C500C5CFF6</string>
+				<string>FAC486650D99577E003DD339</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
