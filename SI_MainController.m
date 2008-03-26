@@ -56,7 +56,7 @@
 	
 	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
 		
-	if(!isDir)
+	if(!fail && !isDir)
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
@@ -67,12 +67,26 @@
 		fail = YES;
 	}
 	
-	if (![theIcon imagePath])
+	if (!fail && ![theIcon imagePath])
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
 		[alert setMessageText:@"No icon selected!"];
 		[alert setInformativeText:@"Please select an icon to apply to the drive by dragging it into the box."];
+		[alert setAlertStyle:NSCriticalAlertStyle];
+		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
+		fail = YES;
+	}
+	
+	NSString *kind;
+	LSCopyKindStringForURL((CFURLRef)[theIcon imageURL], (CFStringRef *)&kind);
+	
+	if(!fail && ![kind isEqualToString:@"Apple icon image"])
+	{
+		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
+		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:@"Incorrect image type!"];
+		[alert setInformativeText:@"The image you have selected is of the wrong type, please make sure the icon you are trying to set is in the ICNS format."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
 		fail = YES;
