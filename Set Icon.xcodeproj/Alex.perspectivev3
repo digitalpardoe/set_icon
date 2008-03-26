@@ -325,12 +325,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>FAC14D790D96979A00A83057</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ChangeLog.rtf</string>
+								<string>SI_MainController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,11 +340,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FAC14D7A0D96979A00A83057</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ChangeLog.rtf</string>
+										<string>SI_MainController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA6307250D9AD28500F27C65</string>
+										<string>FA63077F0D9ADBCD00F27C65</string>
 										<key>history</key>
 										<array>
 											<string>FADD837F0D990DD100C5CFF6</string>
@@ -370,13 +372,13 @@
 											<string>FA6306860D9ACA8400F27C65</string>
 											<string>FA6306870D9ACA8400F27C65</string>
 											<string>FA6306880D9ACA8400F27C65</string>
-											<string>FA63068A0D9ACA8400F27C65</string>
-											<string>FA63068B0D9ACA8400F27C65</string>
 											<string>FA6307140D9AD24400F27C65</string>
 											<string>FA63071F0D9AD28500F27C65</string>
 											<string>FA6307200D9AD28500F27C65</string>
-											<string>FA6307210D9AD28500F27C65</string>
-											<string>FA6306800D9ACA8400F27C65</string>
+											<string>FA6307280D9AD46200F27C65</string>
+											<string>FA6307290D9AD46200F27C65</string>
+											<string>FA63072A0D9AD46200F27C65</string>
+											<string>FA6307760D9ADA7E00F27C65</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -463,6 +465,9 @@
 											<string>FA6307220D9AD28500F27C65</string>
 											<string>FA6307230D9AD28500F27C65</string>
 											<string>FA6307240D9AD28500F27C65</string>
+											<string>FA63072B0D9AD46200F27C65</string>
+											<string>FA63072C0D9AD46200F27C65</string>
+											<string>FA63072D0D9AD46200F27C65</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -523,8 +528,6 @@
 									<string>PBXProjectFindModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXCVSModuleFilterTypeKey</key>

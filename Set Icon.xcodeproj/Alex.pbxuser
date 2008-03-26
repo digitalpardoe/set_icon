@@ -291,6 +291,65 @@
 			FA6307230D9AD28500F27C65 /* PBXTextBookmark */ = FA6307230D9AD28500F27C65 /* PBXTextBookmark */;
 			FA6307240D9AD28500F27C65 /* PBXTextBookmark */ = FA6307240D9AD28500F27C65 /* PBXTextBookmark */;
 			FA6307250D9AD28500F27C65 /* PBXTextBookmark */ = FA6307250D9AD28500F27C65 /* PBXTextBookmark */;
+			FA6307280D9AD46200F27C65 /* PBXTextBookmark */ = FA6307280D9AD46200F27C65 /* PBXTextBookmark */;
+			FA6307290D9AD46200F27C65 /* PBXTextBookmark */ = FA6307290D9AD46200F27C65 /* PBXTextBookmark */;
+			FA63072A0D9AD46200F27C65 /* PBXTextBookmark */ = FA63072A0D9AD46200F27C65 /* PBXTextBookmark */;
+			FA63072B0D9AD46200F27C65 /* PBXTextBookmark */ = FA63072B0D9AD46200F27C65 /* PBXTextBookmark */;
+			FA63072C0D9AD46200F27C65 /* PBXTextBookmark */ = FA63072C0D9AD46200F27C65 /* PBXTextBookmark */;
+			FA63072D0D9AD46200F27C65 /* PBXTextBookmark */ = FA63072D0D9AD46200F27C65 /* PBXTextBookmark */;
+			FA63072E0D9AD46200F27C65 /* PBXTextBookmark */ = FA63072E0D9AD46200F27C65 /* PBXTextBookmark */;
+			FA6307300D9AD47A00F27C65 /* PBXTextBookmark */ = FA6307300D9AD47A00F27C65 /* PBXTextBookmark */;
+			FA6307320D9AD56200F27C65 /* PBXTextBookmark */ = FA6307320D9AD56200F27C65 /* PBXTextBookmark */;
+			FA6307330D9AD56900F27C65 /* PBXTextBookmark */ = FA6307330D9AD56900F27C65 /* PBXTextBookmark */;
+			FA6307340D9AD56C00F27C65 /* PBXTextBookmark */ = FA6307340D9AD56C00F27C65 /* PBXTextBookmark */;
+			FA6307350D9AD57000F27C65 /* PBXTextBookmark */ = FA6307350D9AD57000F27C65 /* PBXTextBookmark */;
+			FA6307360D9AD57000F27C65 /* PBXTextBookmark */ = FA6307360D9AD57000F27C65 /* PBXTextBookmark */;
+			FA6307380D9AD58300F27C65 /* PBXTextBookmark */ = FA6307380D9AD58300F27C65 /* PBXTextBookmark */;
+			FA63073B0D9AD59100F27C65 /* PBXTextBookmark */ = FA63073B0D9AD59100F27C65 /* PBXTextBookmark */;
+			FA63073D0D9AD59E00F27C65 /* PBXTextBookmark */ = FA63073D0D9AD59E00F27C65 /* PBXTextBookmark */;
+			FA63073E0D9AD5E800F27C65 /* PBXTextBookmark */ = FA63073E0D9AD5E800F27C65 /* PBXTextBookmark */;
+			FA6307410D9AD66800F27C65 /* PBXTextBookmark */ = FA6307410D9AD66800F27C65 /* PBXTextBookmark */;
+			FA6307420D9AD6C500F27C65 /* PBXTextBookmark */ = FA6307420D9AD6C500F27C65 /* PBXTextBookmark */;
+			FA6307440D9AD6C700F27C65 /* PBXTextBookmark */ = FA6307440D9AD6C700F27C65 /* PBXTextBookmark */;
+			FA6307460D9AD6DB00F27C65 /* PBXTextBookmark */ = FA6307460D9AD6DB00F27C65 /* PBXTextBookmark */;
+			FA6307480D9AD6FA00F27C65 /* PBXTextBookmark */ = FA6307480D9AD6FA00F27C65 /* PBXTextBookmark */;
+			FA6307490D9AD6FE00F27C65 /* PBXTextBookmark */ = FA6307490D9AD6FE00F27C65 /* PBXTextBookmark */;
+			FA63074A0D9AD70500F27C65 /* PBXTextBookmark */ = FA63074A0D9AD70500F27C65 /* PBXTextBookmark */;
+			FA63074B0D9AD72300F27C65 /* PBXTextBookmark */ = FA63074B0D9AD72300F27C65 /* PBXTextBookmark */;
+			FA63074E0D9AD7AD00F27C65 /* PBXTextBookmark */ = FA63074E0D9AD7AD00F27C65 /* PBXTextBookmark */;
+			FA63074F0D9AD7B400F27C65 /* PBXTextBookmark */ = FA63074F0D9AD7B400F27C65 /* PBXTextBookmark */;
+			FA6307500D9AD7BF00F27C65 /* PBXTextBookmark */ = FA6307500D9AD7BF00F27C65 /* PBXTextBookmark */;
+			FA6307510D9AD7C400F27C65 /* PBXTextBookmark */ = FA6307510D9AD7C400F27C65 /* PBXTextBookmark */;
+			FA6307520D9AD7C900F27C65 /* PBXTextBookmark */ = FA6307520D9AD7C900F27C65 /* PBXTextBookmark */;
+			FA6307530D9AD7CA00F27C65 /* PBXTextBookmark */ = FA6307530D9AD7CA00F27C65 /* PBXTextBookmark */;
+			FA6307540D9AD7CC00F27C65 /* PBXTextBookmark */ = FA6307540D9AD7CC00F27C65 /* PBXTextBookmark */;
+			FA6307550D9AD7E600F27C65 /* PBXTextBookmark */ = FA6307550D9AD7E600F27C65 /* PBXTextBookmark */;
+			FA6307560D9AD7E900F27C65 /* PBXTextBookmark */ = FA6307560D9AD7E900F27C65 /* PBXTextBookmark */;
+			FA6307570D9AD80C00F27C65 /* PBXTextBookmark */ = FA6307570D9AD80C00F27C65 /* PBXTextBookmark */;
+			FA6307580D9AD80F00F27C65 /* PBXTextBookmark */ = FA6307580D9AD80F00F27C65 /* PBXTextBookmark */;
+			FA63075B0D9AD86200F27C65 /* PBXTextBookmark */ = FA63075B0D9AD86200F27C65 /* PBXTextBookmark */;
+			FA63075D0D9AD89600F27C65 /* PBXTextBookmark */ = FA63075D0D9AD89600F27C65 /* PBXTextBookmark */;
+			FA63075F0D9AD8BF00F27C65 /* PBXTextBookmark */ = FA63075F0D9AD8BF00F27C65 /* PBXTextBookmark */;
+			FA6307600D9AD8C300F27C65 /* PBXTextBookmark */ = FA6307600D9AD8C300F27C65 /* PBXTextBookmark */;
+			FA6307610D9AD8C400F27C65 /* PBXTextBookmark */ = FA6307610D9AD8C400F27C65 /* PBXTextBookmark */;
+			FA6307620D9AD8C600F27C65 /* PBXTextBookmark */ = FA6307620D9AD8C600F27C65 /* PBXTextBookmark */;
+			FA6307640D9AD8F900F27C65 /* PBXTextBookmark */ = FA6307640D9AD8F900F27C65 /* PBXTextBookmark */;
+			FA6307650D9AD92300F27C65 /* PBXTextBookmark */ = FA6307650D9AD92300F27C65 /* PBXTextBookmark */;
+			FA6307670D9AD93700F27C65 /* PBXTextBookmark */ = FA6307670D9AD93700F27C65 /* PBXTextBookmark */;
+			FA63076A0D9AD99300F27C65 /* PBXTextBookmark */ = FA63076A0D9AD99300F27C65 /* PBXTextBookmark */;
+			FA63076C0D9AD9F100F27C65 /* PBXTextBookmark */ = FA63076C0D9AD9F100F27C65 /* PBXTextBookmark */;
+			FA63076D0D9ADA0400F27C65 /* PBXTextBookmark */ = FA63076D0D9ADA0400F27C65 /* PBXTextBookmark */;
+			FA63076E0D9ADA0800F27C65 /* PBXTextBookmark */ = FA63076E0D9ADA0800F27C65 /* PBXTextBookmark */;
+			FA6307700D9ADA1000F27C65 /* PBXTextBookmark */ = FA6307700D9ADA1000F27C65 /* PBXTextBookmark */;
+			FA6307710D9ADA3E00F27C65 /* PBXTextBookmark */ = FA6307710D9ADA3E00F27C65 /* PBXTextBookmark */;
+			FA6307720D9ADA4700F27C65 /* PBXTextBookmark */ = FA6307720D9ADA4700F27C65 /* PBXTextBookmark */;
+			FA6307740D9ADA7100F27C65 /* PBXTextBookmark */ = FA6307740D9ADA7100F27C65 /* PBXTextBookmark */;
+			FA6307750D9ADA7D00F27C65 /* PBXTextBookmark */ = FA6307750D9ADA7D00F27C65 /* PBXTextBookmark */;
+			FA6307760D9ADA7E00F27C65 /* PBXTextBookmark */ = FA6307760D9ADA7E00F27C65 /* PBXTextBookmark */;
+			FA6307770D9ADA8100F27C65 /* PBXTextBookmark */ = FA6307770D9ADA8100F27C65 /* PBXTextBookmark */;
+			FA6307790D9ADAA800F27C65 /* PBXTextBookmark */ = FA6307790D9ADAA800F27C65 /* PBXTextBookmark */;
+			FA63077B0D9ADB8100F27C65 /* PBXTextBookmark */ = FA63077B0D9ADB8100F27C65 /* PBXTextBookmark */;
+			FA63077F0D9ADBCD00F27C65 /* PBXTextBookmark */ = FA63077F0D9ADBCD00F27C65 /* PBXTextBookmark */;
 			FAA4E9470D971B0E0062DD8D = FAA4E9470D971B0E0062DD8D /* PBXTextBookmark */;
 			FAA4E9570D971D240062DD8D = FAA4E9570D971D240062DD8D /* PBXTextBookmark */;
 			FAA4E9580D971D240062DD8D = FAA4E9580D971D240062DD8D /* PBXTextBookmark */;
@@ -435,9 +494,9 @@
 	};
 	FA5BE1720D981F4C00C1A937 /* DPFileManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1570, 845}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1859, 266}}";
 			sepNavSelRange = "{221, 0}";
-			sepNavVisRange = "{0, 413}";
+			sepNavVisRange = "{74, 339}";
 		};
 	};
 	FA5BE1730D981F4C00C1A937 /* DPFileManager.m */ = {
@@ -711,7 +770,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4029;
+		rLoc = 4408;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 1782;
@@ -731,7 +790,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4076;
+		rLoc = 4455;
 		rType = 0;
 		vrLen = 2445;
 		vrLoc = 835;
@@ -751,7 +810,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4076;
+		rLoc = 4455;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 1714;
@@ -771,7 +830,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4076;
+		rLoc = 4455;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 1577;
@@ -791,7 +850,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 92";
 		rLen = 0;
-		rLoc = 3931;
+		rLoc = 4310;
 		rType = 0;
 		vrLen = 1870;
 		vrLoc = 1577;
@@ -811,7 +870,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4029;
+		rLoc = 4408;
 		rType = 0;
 		vrLen = 2487;
 		vrLoc = 750;
@@ -1011,7 +1070,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4029;
+		rLoc = 4408;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 1782;
@@ -1051,7 +1110,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 54";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2630;
 		vrLoc = 648;
@@ -1061,7 +1120,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 54";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2630;
 		vrLoc = 648;
@@ -1071,7 +1130,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 54";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 1845;
@@ -1081,7 +1140,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 66";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2942;
 		vrLoc = 684;
@@ -1091,7 +1150,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 64";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2900;
 		vrLoc = 684;
@@ -1101,7 +1160,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 64";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2901;
 		vrLoc = 684;
@@ -1111,7 +1170,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 67";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2023;
 		vrLoc = 1714;
@@ -1121,7 +1180,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 3022;
+		rLoc = 3401;
 		rType = 0;
 		vrLen = 2003;
 		vrLoc = 1714;
@@ -1131,7 +1190,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 69";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2022;
 		vrLoc = 1714;
@@ -1141,7 +1200,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 69";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2022;
 		vrLoc = 1714;
@@ -1151,7 +1210,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 69";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2255;
 		vrLoc = 1478;
@@ -1161,7 +1220,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 69";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 1850;
@@ -1171,7 +1230,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 69";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2594;
 		vrLoc = 1035;
@@ -1181,7 +1240,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 55";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 2594;
 		vrLoc = 1035;
@@ -1191,7 +1250,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 55";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 2628;
 		vrLoc = 1035;
@@ -1201,7 +1260,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 55";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 2628;
 		vrLoc = 1035;
@@ -1211,7 +1270,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 55";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 2757;
 		vrLoc = 684;
@@ -1221,7 +1280,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 55";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 1850;
@@ -1231,7 +1290,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 64";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2514;
 		vrLoc = 1098;
@@ -1241,7 +1300,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 62";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 2526;
 		vrLoc = 1098;
@@ -1251,7 +1310,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 1950;
 		vrLoc = 1848;
@@ -1261,7 +1320,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 1950;
 		vrLoc = 1848;
@@ -1271,7 +1330,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 1930;
 		vrLoc = 1890;
@@ -1281,7 +1340,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 2106;
+		rLoc = 2483;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 1890;
@@ -1291,7 +1350,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 3709;
+		rLoc = 4088;
 		rType = 0;
 		vrLen = 1967;
 		vrLoc = 1850;
@@ -1301,7 +1360,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 3709;
+		rLoc = 4088;
 		rType = 0;
 		vrLen = 1674;
 		vrLoc = 2407;
@@ -1331,7 +1390,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 3709;
+		rLoc = 4088;
 		rType = 0;
 		vrLen = 1674;
 		vrLoc = 2407;
@@ -1431,7 +1490,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 3709;
+		rLoc = 4088;
 		rType = 0;
 		vrLen = 1819;
 		vrLoc = 2262;
@@ -1450,8 +1509,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 56";
-		rLen = 2;
-		rLoc = 2100;
+		rLen = 0;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 2040;
 		vrLoc = 1782;
@@ -1460,8 +1519,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 56";
-		rLen = 2;
-		rLoc = 2100;
+		rLen = 0;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 2040;
 		vrLoc = 1782;
@@ -1470,8 +1529,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 56";
-		rLen = 2;
-		rLoc = 2100;
+		rLen = 0;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 2039;
 		vrLoc = 1782;
@@ -1480,8 +1539,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 56";
-		rLen = 2;
-		rLoc = 2100;
+		rLen = 0;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 1890;
@@ -1491,7 +1550,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2042;
 		vrLoc = 2009;
@@ -1501,7 +1560,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 2009;
@@ -1521,7 +1580,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2090;
 		vrLoc = 2009;
@@ -1541,7 +1600,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 2009;
@@ -1560,8 +1619,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 56";
-		rLen = 2;
-		rLoc = 2100;
+		rLen = 0;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 1890;
@@ -1601,7 +1660,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 2009;
@@ -1611,7 +1670,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 2063;
 		vrLoc = 2009;
@@ -1631,7 +1690,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 3862;
@@ -1641,7 +1700,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 0;
-		rLoc = 3725;
+		rLoc = 4104;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 2222;
@@ -1661,7 +1720,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 0;
-		rLoc = 3725;
+		rLoc = 4104;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 2222;
@@ -1701,7 +1760,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 195;
 		vrLoc = 4002;
@@ -1721,7 +1780,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 82";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 2184;
@@ -1761,7 +1820,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 100";
 		rLen = 0;
-		rLoc = 3725;
+		rLoc = 4104;
 		rType = 0;
 		vrLen = 2016;
 		vrLoc = 2106;
@@ -1781,7 +1840,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 82";
 		rLen = 0;
-		rLoc = 3056;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 2184;
@@ -1831,7 +1890,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 78";
 		rLen = 0;
-		rLoc = 3008;
+		rLoc = 3387;
 		rType = 0;
 		vrLen = 2534;
 		vrLoc = 1098;
@@ -1861,7 +1920,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 78";
 		rLen = 0;
-		rLoc = 3008;
+		rLoc = 3387;
 		rType = 0;
 		vrLen = 2534;
 		vrLoc = 1098;
@@ -1875,6 +1934,596 @@
 		rType = 0;
 		vrLen = 73;
 		vrLoc = 0;
+	};
+	FA6307280D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */;
+		name = "ChangeLog.rtf: 2";
+		rLen = 0;
+		rLoc = 40;
+		rType = 0;
+		vrLen = 73;
+		vrLoc = 0;
+	};
+	FA6307290D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */;
+		name = "SI_StartupChecks.m: 17";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 2541;
+		vrLoc = 0;
+	};
+	FA63072A0D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */;
+		name = "SI_StartupChecks.h: 12";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	FA63072B0D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */;
+		name = "ChangeLog.rtf: 2";
+		rLen = 0;
+		rLoc = 40;
+		rType = 0;
+		vrLen = 73;
+		vrLoc = 0;
+	};
+	FA63072C0D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */;
+		name = "SI_StartupChecks.m: 17";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 2541;
+		vrLoc = 0;
+	};
+	FA63072D0D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */;
+		name = "SI_StartupChecks.h: 12";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	FA63072E0D9AD46200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 60";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 1960;
+		vrLoc = 1848;
+	};
+	FA6307300D9AD47A00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2169;
+		rType = 0;
+		vrLen = 1973;
+		vrLoc = 1848;
+	};
+	FA6307320D9AD56200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 62";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 2049;
+		vrLoc = 1848;
+	};
+	FA6307330D9AD56900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 62";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 2049;
+		vrLoc = 1848;
+	};
+	FA6307340D9AD56C00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 62";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 2207;
+		vrLoc = 1098;
+	};
+	FA6307350D9AD57000F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1720D981F4C00C1A937 /* DPFileManager.h */;
+		name = "DPFileManager.h: 13";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 74;
+	};
+	FA6307360D9AD57000F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 62";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 2169;
+	};
+	FA6307380D9AD58300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2188;
+		rType = 0;
+		vrLen = 2492;
+		vrLoc = 1098;
+	};
+	FA63073B0D9AD59100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2491;
+		vrLoc = 1098;
+	};
+	FA63073D0D9AD59E00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2492;
+		vrLoc = 1098;
+	};
+	FA63073E0D9AD5E800F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2169;
+		rType = 0;
+		vrLen = 2544;
+		vrLoc = 1098;
+	};
+	FA6307410D9AD66800F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2169;
+		rType = 0;
+		vrLen = 2556;
+		vrLoc = 1098;
+	};
+	FA6307420D9AD6C500F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2566;
+		vrLoc = 1098;
+	};
+	FA6307440D9AD6C700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2516;
+		vrLoc = 750;
+	};
+	FA6307460D9AD6DB00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 2009;
+	};
+	FA6307480D9AD6FA00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2431;
+		vrLoc = 835;
+	};
+	FA6307490D9AD6FE00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2431;
+		vrLoc = 835;
+	};
+	FA63074A0D9AD70500F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2431;
+		vrLoc = 835;
+	};
+	FA63074B0D9AD72300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 1924;
+	};
+	FA63074E0D9AD7AD00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2586;
+		vrLoc = 750;
+	};
+	FA63074F0D9AD7B400F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2586;
+		vrLoc = 750;
+	};
+	FA6307500D9AD7BF00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 1926;
+	};
+	FA6307510D9AD7C400F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 968;
+	};
+	FA6307520D9AD7C900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 968;
+	};
+	FA6307530D9AD7CA00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 1926;
+	};
+	FA6307540D9AD7CC00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 968;
+	};
+	FA6307550D9AD7E600F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 968;
+	};
+	FA6307560D9AD7E900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 59";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 1926;
+	};
+	FA6307570D9AD80C00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 57";
+		rLen = 0;
+		rLoc = 2104;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 968;
+	};
+	FA6307580D9AD80F00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 57";
+		rLen = 0;
+		rLoc = 2104;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 1926;
+	};
+	FA63075B0D9AD86200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2173;
+		rType = 0;
+		vrLen = 2480;
+		vrLoc = 750;
+	};
+	FA63075D0D9AD89600F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2173;
+		rType = 0;
+		vrLen = 2435;
+		vrLoc = 750;
+	};
+	FA63075F0D9AD8BF00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 65";
+		rLen = 0;
+		rLoc = 2289;
+		rType = 0;
+		vrLen = 2565;
+		vrLoc = 750;
+	};
+	FA6307600D9AD8C300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 65";
+		rLen = 0;
+		rLoc = 2289;
+		rType = 0;
+		vrLen = 2565;
+		vrLoc = 750;
+	};
+	FA6307610D9AD8C400F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 65";
+		rLen = 0;
+		rLoc = 2289;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 1893;
+	};
+	FA6307620D9AD8C600F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 65";
+		rLen = 0;
+		rLoc = 2289;
+		rType = 0;
+		vrLen = 2323;
+		vrLoc = 1338;
+	};
+	FA6307640D9AD8F900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 64";
+		rLen = 0;
+		rLoc = 2192;
+		rType = 0;
+		vrLen = 2070;
+		vrLoc = 1338;
+	};
+	FA6307650D9AD92300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2012;
+		vrLoc = 1338;
+	};
+	FA6307670D9AD93700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2013;
+		vrLoc = 1338;
+	};
+	FA63076A0D9AD99300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 66";
+		rLen = 0;
+		rLoc = 2479;
+		rType = 0;
+		vrLen = 2266;
+		vrLoc = 1338;
+	};
+	FA63076C0D9AD9F100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 61";
+		rLen = 0;
+		rLoc = 2197;
+		rType = 0;
+		vrLen = 2350;
+		vrLoc = 1338;
+	};
+	FA63076D0D9ADA0400F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 61";
+		rLen = 0;
+		rLoc = 2197;
+		rType = 0;
+		vrLen = 2398;
+		vrLoc = 1338;
+	};
+	FA63076E0D9ADA0800F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 61";
+		rLen = 0;
+		rLoc = 2197;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 2021;
+	};
+	FA6307700D9ADA1000F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2322;
+		vrLoc = 1000;
+	};
+	FA6307710D9ADA3E00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 2322;
+		vrLoc = 1000;
+	};
+	FA6307720D9ADA4700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 58";
+		rLen = 0;
+		rLoc = 2109;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 2007;
+	};
+	FA6307740D9ADA7100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 835;
+	};
+	FA6307750D9ADA7D00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 2379;
+		vrLoc = 835;
+	};
+	FA6307760D9ADA7E00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 1924;
+	};
+	FA6307770D9ADA8100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 2441;
+		vrLoc = 1100;
+	};
+	FA6307790D9ADAA800F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 63";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 2441;
+		vrLoc = 1100;
+	};
+	FA63077B0D9ADB8100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 66";
+		rLen = 0;
+		rLoc = 2476;
+		rType = 0;
+		vrLen = 2160;
+		vrLoc = 1850;
+	};
+	FA63077F0D9ADBCD00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 74";
+		rLen = 0;
+		rLoc = 2729;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 1577;
 	};
 	FAA4E9470D971B0E0062DD8D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1905,7 +2554,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 21";
 		rLen = 0;
-		rLoc = 3728;
+		rLoc = 4107;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 0;
@@ -1977,9 +2626,9 @@
 	};
 	FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1570, 1540}}";
-			sepNavSelRange = "{3008, 0}";
-			sepNavVisRange = "{1098, 2534}";
+			sepNavIntBoundsRect = "{{0, 0}, {1570, 1764}}";
+			sepNavSelRange = "{2729, 0}";
+			sepNavVisRange = "{1577, 2320}";
 		};
 	};
 	FAC14D6D0D96979800A83057 /* Set Icon */ = {
@@ -2566,7 +3215,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4076;
+		rLoc = 4455;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 1577;
