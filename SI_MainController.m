@@ -49,6 +49,23 @@
 
 - (IBAction)setIcon:(id)sender
 {
+	BOOL isDir, fail;
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	[fileManager fileExistsAtPath:[[drivePath URL] relativePath] isDirectory:&isDir];
+	fail = NO;
+	
+	if(!isDir)
+	{
+		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
+		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:@"No drive selected!"];
+		[alert setInformativeText:@"Please select a drive to apply the icon to by dragging it to the bar or using the arrows at the end of the bar."];
+		[alert setAlertStyle:NSCriticalAlertStyle];
+		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
+		fail = YES;
+	}
+	
 	if (![theIcon imagePath])
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
@@ -57,8 +74,11 @@
 		[alert setInformativeText:@"Please select an icon to apply to the drive by dragging it into the box."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
-	} else {
-		NSFileManager *fileManager = [NSFileManager defaultManager];
+		fail = YES;
+	}
+	
+	if(!fail)
+	{
 		[fileManager authenticate];
 		[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 		[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
@@ -89,9 +109,11 @@
 	[driveView release];
 	[iconView release];
 	[buttonView release];
+	[windowView release];
     [driveWindow release];
 	[iconWindow release];
 	[buttonWindow release];
+	[mainWindow release];
 	
 	[defaults release];
 	
