@@ -50,11 +50,11 @@
 - (IBAction)setIcon:(id)sender
 {
 	BOOL isDir, fail;
-	NSFileManager *fileManager = [NSFileManager defaultManager];
+	NSFileManager *tempManager = [NSFileManager defaultManager];
 	
 	fail = NO;
 	
-	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
+	isDir = [tempManager isDrive:[[drivePath URL] relativePath]];
 		
 	if(!fail && !isDir)
 	{
@@ -78,22 +78,9 @@
 		fail = YES;
 	}
 	
-	NSString *kind;
-	LSCopyKindStringForURL((CFURLRef)[theIcon imageURL], (CFStringRef *)&kind);
-	
-	if(!fail && ![kind isEqualToString:@"Apple icon image"])
-	{
-		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
-		[alert addButtonWithTitle:@"OK"];
-		[alert setMessageText:@"Incorrect image type!"];
-		[alert setInformativeText:@"The image you have selected is of the wrong type, please make sure the icon you are trying to set is in the ICNS format."];
-		[alert setAlertStyle:NSCriticalAlertStyle];
-		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
-		fail = YES;
-	}
-	
 	if(!fail)
 	{
+		NSFileManager *fileManager = [NSFileManager defaultManager];
 		[fileManager authenticate];
 		[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 		[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];

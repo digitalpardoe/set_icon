@@ -438,6 +438,41 @@
 			FA6308C60D9B013C00F27C65 /* PBXTextBookmark */ = FA6308C60D9B013C00F27C65 /* PBXTextBookmark */;
 			FA6308C80D9B015800F27C65 /* PBXTextBookmark */ = FA6308C80D9B015800F27C65 /* PBXTextBookmark */;
 			FA6308CA0D9B016A00F27C65 /* PBXTextBookmark */ = FA6308CA0D9B016A00F27C65 /* PBXTextBookmark */;
+			FA6308CD0D9B028200F27C65 /* PBXTextBookmark */ = FA6308CD0D9B028200F27C65 /* PBXTextBookmark */;
+			FA6308CE0D9B028200F27C65 /* PBXTextBookmark */ = FA6308CE0D9B028200F27C65 /* PBXTextBookmark */;
+			FA6308CF0D9B028200F27C65 /* PBXTextBookmark */ = FA6308CF0D9B028200F27C65 /* PBXTextBookmark */;
+			FA6308D00D9B028200F27C65 /* PBXTextBookmark */ = FA6308D00D9B028200F27C65 /* PBXTextBookmark */;
+			FA6308D10D9B028200F27C65 /* PBXTextBookmark */ = FA6308D10D9B028200F27C65 /* PBXTextBookmark */;
+			FA6308D20D9B028500F27C65 /* PBXTextBookmark */ = FA6308D20D9B028500F27C65 /* PBXTextBookmark */;
+			FA6308D30D9B028700F27C65 /* PBXTextBookmark */ = FA6308D30D9B028700F27C65 /* PBXTextBookmark */;
+			FA6308D50D9B02B500F27C65 /* PBXTextBookmark */ = FA6308D50D9B02B500F27C65 /* PBXTextBookmark */;
+			FA6308D70D9B02D700F27C65 /* PBXTextBookmark */ = FA6308D70D9B02D700F27C65 /* PBXTextBookmark */;
+			FA6308D80D9B03B300F27C65 /* PBXTextBookmark */ = FA6308D80D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DA0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DA0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DB0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DB0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DC0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DC0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DD0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DD0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DE0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DE0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308DF0D9B03B300F27C65 /* PBXTextBookmark */ = FA6308DF0D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308E10D9B03B300F27C65 /* PBXTextBookmark */ = FA6308E10D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308E20D9B03B300F27C65 /* PBXTextBookmark */ = FA6308E20D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308E30D9B03B300F27C65 /* PBXTextBookmark */ = FA6308E30D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308E40D9B03B300F27C65 /* PBXTextBookmark */ = FA6308E40D9B03B300F27C65 /* PBXTextBookmark */;
+			FA6308E60D9B03DE00F27C65 /* PBXTextBookmark */ = FA6308E60D9B03DE00F27C65 /* PBXTextBookmark */;
+			FA6308E70D9B040800F27C65 /* PBXTextBookmark */ = FA6308E70D9B040800F27C65 /* PBXTextBookmark */;
+			FA6308E80D9B040900F27C65 /* PBXTextBookmark */ = FA6308E80D9B040900F27C65 /* PBXTextBookmark */;
+			FA6308EA0D9B041100F27C65 /* PBXTextBookmark */ = FA6308EA0D9B041100F27C65 /* PBXTextBookmark */;
+			FA6308EB0D9B042600F27C65 /* PBXTextBookmark */ = FA6308EB0D9B042600F27C65 /* PBXTextBookmark */;
+			FA6308EC0D9B042700F27C65 /* PBXTextBookmark */ = FA6308EC0D9B042700F27C65 /* PBXTextBookmark */;
+			FA6308ED0D9B042900F27C65 /* PBXTextBookmark */ = FA6308ED0D9B042900F27C65 /* PBXTextBookmark */;
+			FA6308EF0D9B053300F27C65 /* PBXTextBookmark */ = FA6308EF0D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F00D9B053300F27C65 /* PBXTextBookmark */ = FA6308F00D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F20D9B053300F27C65 /* PBXTextBookmark */ = FA6308F20D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F30D9B053300F27C65 /* PBXTextBookmark */ = FA6308F30D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F40D9B053300F27C65 /* PBXTextBookmark */ = FA6308F40D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F50D9B053300F27C65 /* PBXTextBookmark */ = FA6308F50D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F60D9B053300F27C65 /* PBXTextBookmark */ = FA6308F60D9B053300F27C65 /* PBXTextBookmark */;
+			FA6308F80D9B053300F27C65 /* PBXTextBookmark */ = FA6308F80D9B053300F27C65 /* PBXTextBookmark */;
 			FAA4E9470D971B0E0062DD8D = FAA4E9470D971B0E0062DD8D /* PBXTextBookmark */;
 			FAA4E9570D971D240062DD8D = FAA4E9570D971D240062DD8D /* PBXTextBookmark */;
 			FAA4E9580D971D240062DD8D = FAA4E9580D971D240062DD8D /* PBXTextBookmark */;
@@ -583,15 +618,15 @@
 	FA5BE1720D981F4C00C1A937 /* DPFileManager.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1570, 845}}";
-			sepNavSelRange = "{407, 33}";
+			sepNavSelRange = "{440, 0}";
 			sepNavVisRange = "{0, 447}";
 		};
 	};
 	FA5BE1730D981F4C00C1A937 /* DPFileManager.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1570, 1302}}";
-			sepNavSelRange = "{2071, 0}";
-			sepNavVisRange = "{827, 1599}";
+			sepNavSelRange = "{1164, 0}";
+			sepNavVisRange = "{725, 1673}";
 			sepNavWindowFrame = "{{61, 422}, {750, 709}}";
 		};
 	};
@@ -858,7 +893,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4662;
+		rLoc = 4105;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 1782;
@@ -878,7 +913,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4709;
+		rLoc = 4152;
 		rType = 0;
 		vrLen = 2445;
 		vrLoc = 835;
@@ -898,7 +933,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4709;
+		rLoc = 4152;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 1714;
@@ -918,7 +953,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4709;
+		rLoc = 4152;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 1577;
@@ -938,7 +973,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 92";
 		rLen = 0;
-		rLoc = 4564;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 1870;
 		vrLoc = 1577;
@@ -958,7 +993,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4662;
+		rLoc = 4105;
 		rType = 0;
 		vrLen = 2487;
 		vrLoc = 750;
@@ -1158,7 +1193,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 96";
 		rLen = 0;
-		rLoc = 4662;
+		rLoc = 4105;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 1782;
@@ -1268,7 +1303,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 77";
 		rLen = 0;
-		rLoc = 3655;
+		rLoc = 3035;
 		rType = 0;
 		vrLen = 2003;
 		vrLoc = 1714;
@@ -1438,7 +1473,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1967;
 		vrLoc = 1850;
@@ -1448,7 +1483,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1674;
 		vrLoc = 2407;
@@ -1478,7 +1513,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1674;
 		vrLoc = 2407;
@@ -1578,7 +1613,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 99";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1819;
 		vrLoc = 2262;
@@ -1638,7 +1673,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2042;
 		vrLoc = 2009;
@@ -1648,7 +1683,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 2009;
@@ -1668,7 +1703,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2090;
 		vrLoc = 2009;
@@ -1688,7 +1723,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 2009;
@@ -1748,7 +1783,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 2009;
@@ -1758,7 +1793,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 2063;
 		vrLoc = 2009;
@@ -1778,7 +1813,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 3862;
@@ -1788,7 +1823,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 0;
-		rLoc = 4358;
+		rLoc = 3801;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 2222;
@@ -1808,7 +1843,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 0;
-		rLoc = 4358;
+		rLoc = 3801;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 2222;
@@ -1848,7 +1883,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 83";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 195;
 		vrLoc = 4002;
@@ -1868,7 +1903,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 82";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 2184;
@@ -1908,7 +1943,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 100";
 		rLen = 0;
-		rLoc = 4358;
+		rLoc = 3801;
 		rType = 0;
 		vrLen = 2016;
 		vrLoc = 2106;
@@ -1928,7 +1963,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 82";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 2184;
@@ -2637,8 +2672,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 53";
-		rLen = 60;
-		rLoc = 1946;
+		rLen = 0;
+		rLoc = 2006;
 		rType = 0;
 		vrLen = 2282;
 		vrLoc = 1410;
@@ -2648,7 +2683,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 827;
@@ -2678,7 +2713,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 73";
 		rLen = 0;
-		rLoc = 2419;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1739;
 		vrLoc = 264;
@@ -2698,7 +2733,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 88";
 		rLen = 0;
-		rLoc = 2417;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1667;
 		vrLoc = 827;
@@ -2718,7 +2753,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 83";
 		rLen = 0;
-		rLoc = 2351;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1537;
 		vrLoc = 827;
@@ -2738,7 +2773,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2022;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 827;
@@ -2758,7 +2793,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 827;
@@ -2777,8 +2812,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 53";
-		rLen = 60;
-		rLoc = 1946;
+		rLen = 0;
+		rLoc = 2006;
 		rType = 0;
 		vrLen = 2282;
 		vrLoc = 1410;
@@ -2788,7 +2823,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 827;
@@ -2798,7 +2833,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 827;
@@ -2807,8 +2842,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 53";
-		rLen = 60;
-		rLoc = 1946;
+		rLen = 0;
+		rLoc = 2006;
 		rType = 0;
 		vrLen = 2282;
 		vrLoc = 1410;
@@ -2818,7 +2853,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 827;
@@ -2968,7 +3003,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 102";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1890;
 		vrLoc = 2245;
@@ -2978,7 +3013,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 102";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1870;
 		vrLoc = 2245;
@@ -2988,7 +3023,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 102";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 2565;
@@ -2998,7 +3033,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 102";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 2245;
@@ -3128,7 +3163,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 85";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2003;
 		vrLoc = 1890;
@@ -3138,7 +3173,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 85";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2003;
 		vrLoc = 1890;
@@ -3148,7 +3183,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 85";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2026;
 		vrLoc = 2021;
@@ -3158,7 +3193,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 85";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 2245;
@@ -3168,7 +3203,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 81";
 		rLen = 0;
-		rLoc = 3042;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1976;
 		vrLoc = 2009;
@@ -3178,7 +3213,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 81";
 		rLen = 0;
-		rLoc = 3042;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1976;
 		vrLoc = 2009;
@@ -3188,7 +3223,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 81";
 		rLen = 0;
-		rLoc = 3042;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1966;
 		vrLoc = 1926;
@@ -3198,7 +3233,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 81";
 		rLen = 0;
-		rLoc = 3042;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 2245;
@@ -3208,7 +3243,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 827;
@@ -3228,7 +3263,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2034;
 		vrLoc = 1848;
@@ -3238,7 +3273,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2034;
 		vrLoc = 1848;
@@ -3248,7 +3283,7 @@
 		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
 		name = "DPFileManager.m: 75";
 		rLen = 0;
-		rLoc = 2071;
+		rLoc = 2421;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 827;
@@ -3268,7 +3303,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3165;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 1850;
@@ -3278,7 +3313,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3165;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 2562;
@@ -3288,7 +3323,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 86";
 		rLen = 0;
-		rLoc = 3640;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1941;
 		vrLoc = 2007;
@@ -3298,7 +3333,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 86";
 		rLen = 0;
-		rLoc = 3640;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1941;
 		vrLoc = 2007;
@@ -3308,7 +3343,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 86";
 		rLen = 0;
-		rLoc = 3640;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 2023;
@@ -3318,7 +3353,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 86";
 		rLen = 0;
-		rLoc = 3640;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 2562;
@@ -3328,7 +3363,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 89";
 		rLen = 0;
-		rLoc = 3476;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2342;
 		vrLoc = 2021;
@@ -3338,7 +3373,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 86";
 		rLen = 0;
-		rLoc = 3240;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2164;
 		vrLoc = 2079;
@@ -3348,7 +3383,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 114";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 1976;
 		vrLoc = 2450;
@@ -3358,7 +3393,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 118";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 1813;
 		vrLoc = 2889;
@@ -3368,7 +3403,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 115";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 1792;
 		vrLoc = 2889;
@@ -3378,7 +3413,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 115";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 2312;
 		vrLoc = 2023;
@@ -3388,7 +3423,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 115";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 3630;
@@ -3398,7 +3433,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 114";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 3785;
 		rType = 0;
 		vrLen = 1679;
 		vrLoc = 3008;
@@ -3408,7 +3443,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 93";
 		rLen = 0;
-		rLoc = 3641;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2336;
 		vrLoc = 2023;
@@ -3418,7 +3453,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 82";
 		rLen = 0;
-		rLoc = 3043;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2332;
 		vrLoc = 2023;
@@ -3428,7 +3463,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 93";
 		rLen = 0;
-		rLoc = 3641;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1845;
@@ -3438,7 +3473,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3178;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2299;
 		vrLoc = 1845;
@@ -3448,7 +3483,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3135;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 1845;
@@ -3458,7 +3493,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 84";
 		rLen = 0;
-		rLoc = 3131;
+		rLoc = 3023;
 		rType = 0;
 		vrLen = 2299;
 		vrLoc = 1845;
@@ -3493,6 +3528,380 @@
 		vrLen = 2303;
 		vrLoc = 1845;
 	};
+	FA6308CD0D9B028200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */;
+		name = "ChangeLog.rtf: 3";
+		rLen = 0;
+		rLoc = 64;
+		rType = 0;
+		vrLen = 97;
+		vrLoc = 0;
+	};
+	FA6308CE0D9B028200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 55";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 2328;
+		vrLoc = 1845;
+	};
+	FA6308CF0D9B028200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 55";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 2328;
+		vrLoc = 1845;
+	};
+	FA6308D00D9B028200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */;
+		name = "ChangeLog.rtf: 3";
+		rLen = 0;
+		rLoc = 64;
+		rType = 0;
+		vrLen = 97;
+		vrLoc = 0;
+	};
+	FA6308D10D9B028200F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 55";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 2358;
+		vrLoc = 1924;
+	};
+	FA6308D20D9B028500F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 55";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 2907;
+	};
+	FA6308D30D9B028700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 55";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 2335;
+		vrLoc = 2007;
+	};
+	FA6308D50D9B02B500F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 117";
+		rLen = 0;
+		rLoc = 3804;
+		rType = 0;
+		vrLen = 1844;
+		vrLoc = 2861;
+	};
+	FA6308D70D9B02D700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 80";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 1963;
+		vrLoc = 1782;
+	};
+	FA6308D80D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA6308D90D9B03B300F27C65 /* DPFileManager.m */;
+		name = "DPFileManager.m: 1";
+		rLen = 1965;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1769;
+		vrLoc = 196;
+	};
+	FA6308D90D9B03B300F27C65 /* DPFileManager.m */ = {
+		isa = PBXFileReference;
+		name = DPFileManager.m;
+		path = "/Users/Alex/Desktop/untitled folder/DPFileManager.m";
+		sourceTree = "<absolute>";
+	};
+	FA6308DA0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1720D981F4C00C1A937 /* DPFileManager.h */;
+		name = "DPFileManager.h: 17";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	FA6308DB0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 43";
+		rLen = 0;
+		rLoc = 1164;
+		rType = 0;
+		vrLen = 1599;
+		vrLoc = 827;
+	};
+	FA6308DC0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 80";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 1998;
+		vrLoc = 1747;
+	};
+	FA6308DD0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 80";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 1963;
+		vrLoc = 1782;
+	};
+	FA6308DE0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 71";
+		rLen = 0;
+		rLoc = 2421;
+		rType = 0;
+		vrLen = 1825;
+		vrLoc = 134;
+	};
+	FA6308DF0D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA6308E00D9B03B300F27C65 /* DPFileManager.m */;
+		name = "DPFileManager.m: 1";
+		rLen = 1965;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1769;
+		vrLoc = 196;
+	};
+	FA6308E00D9B03B300F27C65 /* DPFileManager.m */ = {
+		isa = PBXFileReference;
+		name = DPFileManager.m;
+		path = "/Users/Alex/Desktop/untitled folder/DPFileManager.m";
+		sourceTree = "<absolute>";
+	};
+	FA6308E10D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 71";
+		rLen = 32;
+		rLoc = 1960;
+		rType = 0;
+		vrLen = 1599;
+		vrLoc = 827;
+	};
+	FA6308E20D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1720D981F4C00C1A937 /* DPFileManager.h */;
+		name = "DPFileManager.h: 17";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	FA6308E30D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 43";
+		rLen = 0;
+		rLoc = 1164;
+		rType = 0;
+		vrLen = 1599;
+		vrLoc = 827;
+	};
+	FA6308E40D9B03B300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 80";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 2031;
+		vrLoc = 1714;
+	};
+	FA6308E60D9B03DE00F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 2030;
+		vrLoc = 1714;
+	};
+	FA6308E70D9B040800F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 2030;
+		vrLoc = 1714;
+	};
+	FA6308E80D9B040900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 2907;
+	};
+	FA6308EA0D9B041100F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1936;
+		vrLoc = 2009;
+	};
+	FA6308EB0D9B042600F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1936;
+		vrLoc = 2009;
+	};
+	FA6308EC0D9B042700F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 2907;
+	};
+	FA6308ED0D9B042900F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1936;
+		vrLoc = 2009;
+	};
+	FA6308EF0D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 43";
+		rLen = 0;
+		rLoc = 1164;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 725;
+	};
+	FA6308F00D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA6308F10D9B053300F27C65 /* SI_MainController.m */;
+		name = "SI_MainController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2424;
+		vrLoc = 835;
+	};
+	FA6308F10D9B053300F27C65 /* SI_MainController.m */ = {
+		isa = PBXFileReference;
+		name = SI_MainController.m;
+		path = "/Users/Alex/Desktop/untitled folder/SI_MainController.m";
+		sourceTree = "<absolute>";
+	};
+	FA6308F20D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1965;
+		vrLoc = 2007;
+	};
+	FA6308F30D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1936;
+		vrLoc = 2009;
+	};
+	FA6308F40D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */;
+		name = "DPFileManager.m: 43";
+		rLen = 0;
+		rLoc = 1164;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 725;
+	};
+	FA6308F50D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 84";
+		rLen = 0;
+		rLoc = 3133;
+		rType = 0;
+		vrLen = 1965;
+		vrLoc = 2007;
+	};
+	FA6308F60D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA6308F70D9B053300F27C65 /* SI_MainController.m */;
+		name = "SI_MainController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2424;
+		vrLoc = 835;
+	};
+	FA6308F70D9B053300F27C65 /* SI_MainController.m */ = {
+		isa = PBXFileReference;
+		name = SI_MainController.m;
+		path = "/Users/Alex/Desktop/untitled folder/SI_MainController.m";
+		sourceTree = "<absolute>";
+	};
+	FA6308F80D9B053300F27C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 57";
+		rLen = 0;
+		rLoc = 2044;
+		rType = 0;
+		vrLen = 2496;
+		vrLoc = 1098;
+	};
 	FAA4E9470D971B0E0062DD8D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAB52C650D96A14100DAD8D5 /* SI_MenuController.m */;
@@ -3522,7 +3931,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 21";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 3804;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 0;
@@ -3594,9 +4003,9 @@
 	};
 	FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1570, 1736}}";
-			sepNavSelRange = "{2019, 0}";
-			sepNavVisRange = "{1845, 2303}";
+			sepNavIntBoundsRect = "{{0, 0}, {1570, 1582}}";
+			sepNavSelRange = "{2044, 0}";
+			sepNavVisRange = "{1098, 2518}";
 		};
 	};
 	FAC14D6D0D96979800A83057 /* Set Icon */ = {
@@ -4183,7 +4592,7 @@
 		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
 		name = "SI_MainController.m: 101";
 		rLen = 5;
-		rLoc = 4709;
+		rLoc = 4152;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 1577;
