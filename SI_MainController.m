@@ -53,25 +53,15 @@
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
 	fail = NO;
-	[fileManager fileExistsAtPath:[[drivePath URL] relativePath] isDirectory:&isDir];
-
-	if([[[[drivePath URL] relativePath] pathComponents] count] == 1)
-	{
-		isDir = YES;
-	} else if(![[[[drivePath URL] relativePath] substringToIndex:8] isEqualToString:@"/Volumes"])
-	{
-		isDir = NO;
-	} else if ([[[[drivePath URL] relativePath] substringToIndex:8] isEqualToString:@"/Volumes"] && [[[[drivePath URL] relativePath] pathComponents] count] != 3)
-	{
-		isDir = NO;
-	}
+	
+	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
 		
 	if(!isDir)
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
 		[alert setMessageText:@"No drive selected!"];
-		[alert setInformativeText:@"Please select a drive to apply the icon to by dragging it onto the bar or using the arrows at the end of the bar."];
+		[alert setInformativeText:@"Please select a drive to apply the icon to by dragging it onto the path bar or using the arrows at the end of the path bar."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
 		fail = YES;

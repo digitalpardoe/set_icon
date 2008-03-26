@@ -68,4 +68,25 @@ AuthorizationRef authorizationRef;
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
 }
 
+- (BOOL)isDrive:(NSString *)path
+{
+	BOOL isDir;
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	[fileManager fileExistsAtPath:path isDirectory:&isDir];
+
+	if([[path pathComponents] count] == 1)
+	{
+		isDir = YES;
+	} else if(![[path substringToIndex:8] isEqualToString:@"/Volumes"])
+	{
+		isDir = NO;
+	} else if ([[path substringToIndex:8] isEqualToString:@"/Volumes"] && [[path pathComponents] count] != 3)
+	{
+		isDir = NO;
+	}
+	
+	return isDir;
+}
+
 @end
