@@ -50,11 +50,11 @@
 - (IBAction)setIcon:(id)sender
 {
 	BOOL isDir, fail;
-	NSFileManager *tempManager = [NSFileManager defaultManager];
+	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
 	fail = NO;
 	
-	isDir = [tempManager isDrive:[[drivePath URL] relativePath]];
+	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
 		
 	if(!fail && !isDir)
 	{
@@ -64,6 +64,7 @@
 		[alert setInformativeText:@"Please select a drive to apply the icon to by dragging it onto the path bar or using the arrows at the end of the path bar."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
+		
 		fail = YES;
 	}
 	
@@ -78,27 +79,31 @@
 		fail = YES;
 	}
 	
+	
 	if(!fail)
 	{
-		NSFileManager *fileManager = [NSFileManager defaultManager];
 		[fileManager authenticate];
-		[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-		[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-		[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
 		
-		NSTask *task;
-		task = [[NSTask alloc] init];
-		[task setLaunchPath: @"/usr/bin/killall"];
+		if ([fileManager authorized])
+		{
+			[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+			[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+			[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
 		
-		NSArray *arguments;
-		arguments = [NSArray arrayWithObjects: @"Finder", nil];
-		[task setArguments: arguments];
+			NSTask *task;
+			task = [[NSTask alloc] init];
+			[task setLaunchPath: @"/usr/bin/killall"];
+		
+			NSArray *arguments;
+			arguments = [NSArray arrayWithObjects: @"Finder", nil];
+			[task setArguments: arguments];
 
-		NSPipe *pipe;
-		pipe = [NSPipe pipe];
-		[task setStandardOutput: pipe];
+			NSPipe *pipe;
+			pipe = [NSPipe pipe];
+			[task setStandardOutput: pipe];
 	
-		[task launch];
+			[task launch];
+		}
 	}
 }
 

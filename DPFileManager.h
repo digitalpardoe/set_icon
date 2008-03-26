@@ -11,6 +11,7 @@
 @interface NSFileManager(DPFileManager)
 
 - (void)authenticate;
+- (BOOL)authorized;
 - (void)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst;
 - (void)setDriveIconWithAuthentication:(NSString *)dst;
 - (void)deletePathWithAuthentication:(NSString *)dst;

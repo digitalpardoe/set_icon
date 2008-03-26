@@ -9,17 +9,25 @@
 #import "DPFileManager.h"
 
 AuthorizationRef authorizationRef;
+BOOL authorized;
 
 @implementation NSFileManager(DPFileManager)
 
 - (void)authenticate
 {
-	AuthorizationItem right = { "co.uk.digitalpardoe.Authenticate", 0, NULL, 0 };
+	AuthorizationItem right = { kAuthorizationRightExecute, 0, NULL, 0 };
 	AuthorizationRights rightSet = { 1, &right };
-	AuthorizationFlags myFlags = kAuthorizationFlagDefaults | kAuthorizationFlagInteractionAllowed | kAuthorizationFlagExtendRights;
+	AuthorizationFlags myFlags = kAuthorizationFlagDefaults | kAuthorizationFlagInteractionAllowed | kAuthorizationFlagExtendRights | kAuthorizationFlagPreAuthorize;
 	OSStatus myStatus;
 	
 	myStatus = AuthorizationCreate(&rightSet, kAuthorizationEmptyEnvironment, myFlags, &authorizationRef);
+	
+	authorized = (errAuthorizationSuccess == myStatus);
+}
+
+- (BOOL)authorized
+{
+	return authorized;
 }
 
 - (void)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst
