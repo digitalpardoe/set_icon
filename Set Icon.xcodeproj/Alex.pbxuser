@@ -167,6 +167,9 @@
 			FA2254BC0D9B16C100D99155 /* PBXTextBookmark */ = FA2254BC0D9B16C100D99155 /* PBXTextBookmark */;
 			FA2254C40D9B16F300D99155 /* PBXTextBookmark */ = FA2254C40D9B16F300D99155 /* PBXTextBookmark */;
 			FA2254C70D9B172A00D99155 /* PBXTextBookmark */ = FA2254C70D9B172A00D99155 /* PBXTextBookmark */;
+			FA2254CA0D9B175100D99155 /* PBXTextBookmark */ = FA2254CA0D9B175100D99155 /* PBXTextBookmark */;
+			FA2254CB0D9B175300D99155 /* PBXTextBookmark */ = FA2254CB0D9B175300D99155 /* PBXTextBookmark */;
+			FA2254CC0D9B176000D99155 /* PBXTextBookmark */ = FA2254CC0D9B176000D99155 /* PBXTextBookmark */;
 			FA5BE0F80D9813D900C1A937 = FA5BE0F80D9813D900C1A937 /* PBXTextBookmark */;
 			FA5BE17D0D981FDC00C1A937 = FA5BE17D0D981FDC00C1A937 /* PBXTextBookmark */;
 			FA5BE1880D981FDC00C1A937 = FA5BE1880D981FDC00C1A937 /* PBXTextBookmark */;
@@ -598,6 +601,36 @@
 		rType = 0;
 		vrLen = 1716;
 		vrLoc = 2411;
+	};
+	FA2254CA0D9B175100D99155 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 105";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 1953;
+		vrLoc = 1850;
+	};
+	FA2254CB0D9B175300D99155 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 105";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 3499;
+	};
+	FA2254CC0D9B176000D99155 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */;
+		name = "SI_MainController.m: 105";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 2417;
+		vrLoc = 40;
 	};
 	FA5BE0F80D9813D900C1A937 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2231,9 +2264,9 @@
 	};
 	FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1570, 1820}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1570, 1834}}";
 			sepNavSelRange = "{3781, 0}";
-			sepNavVisRange = "{2411, 1716}";
+			sepNavVisRange = "{40, 2417}";
 		};
 	};
 	FAC14D6D0D96979800A83057 /* Set Icon */ = {
