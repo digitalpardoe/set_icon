@@ -13,6 +13,7 @@ BOOL authorized;
 
 @implementation NSFileManager(DPFileManager)
 
+// Creates an authentication session to excecute commands as root, sets if the user sucessfully logged in.
 - (void)authenticate
 {
 	AuthorizationItem right = { kAuthorizationRightExecute, 0, NULL, 0 };
@@ -25,11 +26,13 @@ BOOL authorized;
 	authorized = (errAuthorizationSuccess == myStatus);
 }
 
+// Returns if the user has authenticated sucessfully, use this to continue code excecution.
 - (BOOL)authorized
 {
 	return authorized;
 }
 
+// Copies files using the pre-authorized token.
 - (void)copyPathWithAuthentication:(NSString *)src toPath:(NSString *)dst
 {
 	FILE *pipe = NULL;
@@ -45,6 +48,7 @@ BOOL authorized;
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
 }
 
+// Will set the flag for custom icons when SetCustomIcon is included in the project.
 - (void)setDriveIconWithAuthentication:(NSString *)dst
 {
 	FILE *pipe = NULL;
@@ -62,6 +66,7 @@ BOOL authorized;
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
 }
 
+// Deletes a file (no folders) using the pre-authorized token.
 - (void)deletePathWithAuthentication:(NSString *)dst
 {
 	FILE *pipe = NULL;
@@ -76,6 +81,7 @@ BOOL authorized;
 	AuthorizationExecuteWithPrivileges(authorizationRef, "/bin/sh", kAuthorizationFlagDefaults, (char**)arguments, &pipe);
 }
 
+// Checks to see if a particular path points to the root of a drive, Leopard only, standard mount points.
 - (BOOL)isDrive:(NSString *)path
 {
 	BOOL isDir;
