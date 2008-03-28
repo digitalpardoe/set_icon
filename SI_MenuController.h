@@ -18,5 +18,6 @@
 
 - (IBAction)preferences:(id)sender;
 - (IBAction)donate:(id)sender;
+- (IBAction)changeLog:(id)sender;
 
 @end
