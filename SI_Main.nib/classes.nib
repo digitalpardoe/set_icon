@@ -15,6 +15,8 @@
 		<dict>
 			<key>ACTIONS</key>
 			<dict>
+				<key>removeCustomIcon</key>
+				<string>id</string>
 				<key>setIcon</key>
 				<string>id</string>
 			</dict>

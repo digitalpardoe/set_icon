@@ -12,6 +12,8 @@
 
 - (void)awakeFromNib
 {
+	removeIcon = FALSE;
+	
 	defaults = [NSUserDefaults standardUserDefaults];
 	showToolTips = [defaults boolForKey:@"ShowToolTips"];
 	
@@ -68,7 +70,7 @@
 		fail = YES;
 	}
 	
-	if (!fail && ![theIcon imagePath])
+	if (!fail && ![theIcon imagePath] && !removeIcon)
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
@@ -76,6 +78,7 @@
 		[alert setInformativeText:@"Please select an icon to apply to the drive by dragging it into the box."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
+		
 		fail = YES;
 	}
 	
@@ -86,10 +89,15 @@
 		
 		if ([fileManager authorized])
 		{
-			[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-			[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-			[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
-		
+			if(removeIcon)
+			{
+				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+			} else {
+				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+				[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+				[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
+			}
+			
 			NSTask *task;
 			task = [[NSTask alloc] init];
 			[task setLaunchPath: @"/usr/bin/killall"];
@@ -104,6 +112,18 @@
 	
 			[task launch];
 		}
+	}
+}
+
+- (IBAction)removeCustomIcon:(id)sender
+{
+	if ([[setIconButton title] isEqualToString:@"Set Icon"])
+	{
+		[setIconButton setTitle:@"Remove Icon"];
+		removeIcon = TRUE;
+	} else {
+		[setIconButton setTitle:@"Set Icon"];
+		removeIcon = FALSE;
 	}
 }
 

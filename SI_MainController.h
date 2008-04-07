@@ -29,6 +29,10 @@
 	
 	NSUserDefaults *defaults;
 	BOOL showToolTips;
+	BOOL removeIcon;
 }
+
+- (IBAction)setIcon:(id)sender;
+- (IBAction)removeCustomIcon:(id)sender;
 
 @end
