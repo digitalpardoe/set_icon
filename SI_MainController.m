@@ -19,6 +19,8 @@
 	
 	[theWindow center];
 	
+	[drivePath setURL:[NSURL fileURLWithPath:@"/"]];
+	
 	if (showToolTips == TRUE)
 	{
 		NSPoint drivePoint = NSMakePoint(NSMaxX([drivePath frame]), NSMidY([drivePath frame]));
