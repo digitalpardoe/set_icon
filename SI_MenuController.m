@@ -29,7 +29,9 @@
 		prefs = [[SS_PrefsController alloc] initWithPanesSearchPath:pathToPanes];
 		
 		[prefs setAlwaysShowsToolbar:YES];
-		[prefs setDebug:YES];
+		[prefs setDebug:NO];
+		
+		[prefs setAlwaysOpensCentered:YES];
 		
 		[prefs setPanesOrder:[NSArray arrayWithObjects:@"Updates", @"Tool Tips", nil]];
 	}

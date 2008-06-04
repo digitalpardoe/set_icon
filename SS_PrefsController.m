@@ -166,6 +166,7 @@
     
     [prefsWindow setReleasedWhenClosed:NO];
     [prefsWindow setTitle:@"Preferences"]; // initial default title
+	[prefsWindow setShowsToolbarButton:NO];
     
     [prefsWindow center];
     [self createPrefsToolbar];
