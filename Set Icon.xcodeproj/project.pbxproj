@@ -229,7 +229,6 @@
 			children = (
 				FAE9E7B00D9699C800854FC8 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				FADD87530D9947A800C5CFF6 /* Images */,
 				FA1603C20D9881D600C80C50 /* SetHasCustomIcon */,
 				FADD842F0D9912C300C5CFF6 /* Preference Panes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -250,6 +249,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FADD87530D9947A800C5CFF6 /* Images */,
 				FAE9E8370D969A7700854FC8 /* Interface */,
 				FAE9E8360D969A6900854FC8 /* Text & Property List */,
 			);
