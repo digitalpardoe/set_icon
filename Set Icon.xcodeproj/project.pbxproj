@@ -38,10 +38,10 @@
 		FADD871F0D992DF700C5CFF6 /* SI_UpdateIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */; };
 		FADD87210D992E2300C5CFF6 /* SI_ToolTipIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */; };
 		FADD87550D9947C500C5CFF6 /* SI_Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FADD87540D9947C500C5CFF6 /* SI_Icon.icns */; };
-		FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
-		FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9E7910D96998400854FC8 /* Sparkle.framework */; };
 		FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		FAF3D96F0E0C00D900A9E6F6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */; };
+		FAF3D9760E0C00DE00A9E6F6 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FAE9E8320D969A3700854FC8 /* Sparkle.framework in Copy Frameworks */,
+				FAF3D9760E0C00DE00A9E6F6 /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +154,7 @@
 		FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_UpdateIcon.tif; sourceTree = "<group>"; };
 		FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_ToolTipIcon.tif; sourceTree = "<group>"; };
 		FADD87540D9947C500C5CFF6 /* SI_Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SI_Icon.icns; sourceTree = "<group>"; };
-		FAE9E7910D96998400854FC8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +164,8 @@
 			files = (
 				FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				FAE9E7920D96998400854FC8 /* Sparkle.framework in Frameworks */,
 				FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */,
+				FAF3D96F0E0C00D900A9E6F6 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +259,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */,
 				FA5BE0970D980AA700C1A937 /* Security.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				FAE9E7910D96998400854FC8 /* Sparkle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
