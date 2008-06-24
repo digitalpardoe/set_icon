@@ -6,12 +6,12 @@
 //  Copyright 2008 digital:pardoe. All rights reserved.
 //
 
-#import "DPFileManager.h"
+#import "DPAuthFileManager.h"
 
 AuthorizationRef authorizationRef;
 BOOL authorized;
 
-@implementation NSFileManager(DPFileManager)
+@implementation NSFileManager(DPAuthFileManager)
 
 // Creates an authentication session to excecute commands as root, sets if the user sucessfully logged in.
 - (void)authenticate

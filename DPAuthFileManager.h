@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface NSFileManager(DPFileManager)
+@interface NSFileManager(DPAuthFileManager)
 
 - (void)authenticate;
 - (BOOL)authorized;

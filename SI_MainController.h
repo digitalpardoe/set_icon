@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DPImageView.h"
-#import "DPFileManager.h"
+#import "DPAuthFileManager.h"
 #import "MAAttachedWindow.h"
 #import "NSImage+IconData.h"
 

@@ -12,12 +12,12 @@
 
 - (void)init
 {
-	[self toolTipCheck];
-	[self updateCheck];
-	[self donateCheck];
+	[self _toolTipCheck];
+	[self _updateCheck];
+	[self _donateCheck];
 }
 
-- (void)toolTipCheck
+- (void)_toolTipCheck
 {
 	NSNumber *toolTipChecking = [[NSUserDefaults standardUserDefaults] objectForKey:@"ShowToolTips"];
 	if (!toolTipChecking) {
@@ -28,7 +28,7 @@
 	[toolTipChecking release];
 }
 
-- (void)updateCheck
+- (void)_updateCheck
 {
 	NSNumber *updateChecking = [[NSUserDefaults standardUserDefaults] objectForKey:@"SUCheckAtStartup"];
 	if (!updateChecking) {
@@ -40,7 +40,7 @@
 	[updateChecking release];
 }
 
-- (void)donateCheck
+- (void)_donateCheck
 {
 	NSNumber *donateChecking = [[NSUserDefaults standardUserDefaults] objectForKey:@"Donation"];
 	if (!donateChecking) {

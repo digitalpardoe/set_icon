@@ -18,7 +18,7 @@
 		FA1603AD0D98817C00C80C50 /* SetHasCustomIcon.c in Sources */ = {isa = PBXBuildFile; fileRef = FA1602DC0D9880E400C80C50 /* SetHasCustomIcon.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		FA1603E70D98841800C80C50 /* SetHasCustomIcon in Copy Executables */ = {isa = PBXBuildFile; fileRef = FA1602F30D98816700C80C50 /* SetHasCustomIcon */; };
 		FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BE0970D980AA700C1A937 /* Security.framework */; };
-		FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE1730D981F4C00C1A937 /* DPFileManager.m */; };
+		FA5BE1740D981F4C00C1A937 /* DPAuthFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */; };
 		FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA5BE4920D986C9700C1A937 /* Credits.rtf */; };
 		FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */; };
 		FA63065D0D9A9B3F00F27C65 /* ChangeLog.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */; };
@@ -124,8 +124,8 @@
 		FA1602E60D98812100C80C50 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		FA1602F30D98816700C80C50 /* SetHasCustomIcon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetHasCustomIcon; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5BE0970D980AA700C1A937 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FA5BE1720D981F4C00C1A937 /* DPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFileManager.h; sourceTree = "<group>"; };
-		FA5BE1730D981F4C00C1A937 /* DPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFileManager.m; sourceTree = "<group>"; };
+		FA5BE1720D981F4C00C1A937 /* DPAuthFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAuthFileManager.h; sourceTree = "<group>"; };
+		FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAuthFileManager.m; sourceTree = "<group>"; };
 		FA5BE4920D986C9700C1A937 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
 		FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
@@ -316,8 +316,8 @@
 			children = (
 				FAA4E94C0D971B3F0062DD8D /* DPImageView.h */,
 				FAA4E94D0D971B3F0062DD8D /* DPImageView.m */,
-				FA5BE1720D981F4C00C1A937 /* DPFileManager.h */,
-				FA5BE1730D981F4C00C1A937 /* DPFileManager.m */,
+				FA5BE1720D981F4C00C1A937 /* DPAuthFileManager.h */,
+				FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */,
 			);
 			name = "Custom Classes";
 			sourceTree = "<group>";
@@ -547,7 +547,7 @@
 				FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */,
 				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
 				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
-				FA5BE1740D981F4C00C1A937 /* DPFileManager.m in Sources */,
+				FA5BE1740D981F4C00C1A937 /* DPAuthFileManager.m in Sources */,
 				FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */,
 				FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */,
 				FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */,
