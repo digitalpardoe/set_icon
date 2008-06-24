@@ -8,7 +8,10 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="84"/>
+			<integer value="73"/>
 			<integer value="7"/>
+			<integer value="51"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -123,7 +126,7 @@
 								<int key="NSCellFlags">270663168</int>
 								<int key="NSCellFlags2">32768</int>
 								<int key="NSAlign">0</int>
-								<int key="NSScale">3</int>
+								<int key="NSScale">1</int>
 								<int key="NSStyle">2</int>
 								<bool key="NSAnimates">NO</bool>
 							</object>
@@ -191,7 +194,7 @@
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="57943158">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -204,7 +207,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="351635458">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">138412032</int>
-							<string key="NSContents">Drag the icon you want to apply here, the icon must be in ICNS format.</string>
+							<string key="NSContents">Drag the image you want to apply here, the image should be square for best results.</string>
 							<reference key="NSSupport" ref="819834349"/>
 							<reference key="NSControlView" ref="225098903"/>
 							<object class="NSColor" key="NSBackgroundColor">
@@ -216,23 +219,24 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{211, 51}</string>
+				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="230752148">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSTextField" id="222820991">
 						<reference key="NSNextResponder" ref="230752148"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{-3, 0}, {217, 51}}</string>
+						<string key="NSFrame">{{-3, 0}, {217, 68}}</string>
 						<reference key="NSSuperview" ref="230752148"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="356398516">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">138412032</int>
-							<string key="NSContents">Click here and type in an Administrator password to apply the icon. Finder will restart.</string>
+							<string key="NSContents">Click here and type in an Administrator password to apply / remove the icon. Finder will restart.</string>
 							<reference key="NSSupport" ref="819834349"/>
 							<reference key="NSControlView" ref="222820991"/>
 							<object class="NSColor" key="NSBackgroundColor">
@@ -243,11 +247,12 @@
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{211, 51}</string>
+				<string key="NSFrameSize">{211, 68}</string>
+				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSCustomView" id="340886002">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -260,7 +265,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="763677728">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">138412032</int>
-							<string type="base64-UTF8" key="NSContents">RGlzYWJsZSB0aGVzZSBUb29sIFRpcHMgaW4gJ1ByZWZlcmVuY2VzJy4</string>
+							<string type="base64-UTF8" key="NSContents">RGlzYWJsZSB0aGVzZSB0b29sIHRpcHMgaW4gJ1ByZWZlcmVuY2VzJy4</string>
 							<reference key="NSSupport" ref="819834349"/>
 							<reference key="NSControlView" ref="43451294"/>
 							<object class="NSColor" key="NSBackgroundColor">
@@ -277,6 +282,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{165, 34}</string>
+				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSUserDefaultsController" id="188212410">
@@ -604,6 +610,7 @@
 					<string>18.ImportedFromIB2</string>
 					<string>50.IBPluginDependency</string>
 					<string>50.ImportedFromIB2</string>
+					<string>51.IBEditorWindowLastContentRect</string>
 					<string>51.IBPluginDependency</string>
 					<string>51.ImportedFromIB2</string>
 					<string>54.IBPluginDependency</string>
@@ -618,12 +625,14 @@
 					<string>63.ImportedFromIB2</string>
 					<string>7.IBPluginDependency</string>
 					<string>7.ImportedFromIB2</string>
+					<string>73.IBEditorWindowLastContentRect</string>
 					<string>73.IBPluginDependency</string>
 					<string>73.ImportedFromIB2</string>
 					<string>74.IBPluginDependency</string>
 					<string>74.ImportedFromIB2</string>
 					<string>8.IBPluginDependency</string>
 					<string>8.ImportedFromIB2</string>
+					<string>84.IBEditorWindowLastContentRect</string>
 					<string>84.IBPluginDependency</string>
 					<string>84.ImportedFromIB2</string>
 					<string>9.CustomClassName</string>
@@ -648,6 +657,7 @@
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
+					<string>{{377, 790}, {211, 51}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -662,12 +672,14 @@
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
+					<string>{{730, 589}, {211, 68}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
+					<string>{{342, 657}, {165, 34}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
 					<string>DPImageView</string>
