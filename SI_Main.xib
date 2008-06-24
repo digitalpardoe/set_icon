@@ -8,10 +8,10 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="84"/>
-			<integer value="73"/>
 			<integer value="7"/>
 			<integer value="51"/>
+			<integer value="84"/>
+			<integer value="73"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -236,7 +236,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="356398516">
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">138412032</int>
-							<string key="NSContents">Click here and type in an Administrator password to apply / remove the icon. Finder will restart.</string>
+							<string key="NSContents">Click here and type in an administrator password to apply / remove the icon. Finder will restart.</string>
 							<reference key="NSSupport" ref="819834349"/>
 							<reference key="NSControlView" ref="222820991"/>
 							<object class="NSColor" key="NSBackgroundColor">
