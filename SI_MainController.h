@@ -10,6 +10,7 @@
 #import "DPImageView.h"
 #import "DPFileManager.h"
 #import "MAAttachedWindow.h"
+#import "NSImage+IconData.h"
 
 @interface SI_MainController : NSObject
 {
@@ -30,6 +31,8 @@
 	NSUserDefaults *defaults;
 	BOOL showToolTips;
 	BOOL removeIcon;
+	
+	NSImage* theImage;
 }
 
 - (IBAction)setIcon:(id)sender;

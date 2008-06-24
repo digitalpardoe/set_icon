@@ -95,9 +95,14 @@
 			{
 				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 			} else {
+				theImage = [[[NSImage alloc] initWithContentsOfURL:[theIcon imageURL]] autorelease];
+				[[theImage icnsDataWithWidth:512] writeToFile:@"/tmp/seticon_temp.icns" atomically:NO];
+		
 				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-				[fileManager copyPathWithAuthentication:[theIcon imagePath] toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+				[fileManager copyPathWithAuthentication:@"/tmp/seticon_temp.icns" toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
 				[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
+				
+				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"/tmp/seticon_temp.icns"]];
 			}
 			
 			NSTask *task;
@@ -143,9 +148,8 @@
 	[iconWindow release];
 	[buttonWindow release];
 	[mainWindow release];
-	
 	[defaults release];
-	
+	[theImage release];
 	[super dealloc];
 }
 

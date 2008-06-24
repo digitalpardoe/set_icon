@@ -40,6 +40,8 @@
 		FADD87550D9947C500C5CFF6 /* SI_Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FADD87540D9947C500C5CFF6 /* SI_Icon.icns */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		FAEB499D0E11144D002756FC /* NSImage+IconData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB499C0E11144D002756FC /* NSImage+IconData.m */; };
+		FAEB49D30E111578002756FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB49D20E111578002756FC /* Accelerate.framework */; };
 		FAF3D96F0E0C00D900A9E6F6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */; };
 		FAF3D9760E0C00DE00A9E6F6 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */; };
 /* End PBXBuildFile section */
@@ -154,6 +156,9 @@
 		FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_UpdateIcon.tif; sourceTree = "<group>"; };
 		FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_ToolTipIcon.tif; sourceTree = "<group>"; };
 		FADD87540D9947C500C5CFF6 /* SI_Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SI_Icon.icns; sourceTree = "<group>"; };
+		FAEB499B0E11144D002756FC /* NSImage+IconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+IconData.h"; sourceTree = "<group>"; };
+		FAEB499C0E11144D002756FC /* NSImage+IconData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+IconData.m"; sourceTree = "<group>"; };
+		FAEB49D20E111578002756FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +171,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */,
 				FAF3D96F0E0C00D900A9E6F6 /* Sparkle.framework in Frameworks */,
+				FAEB49D30E111578002756FC /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAEB49D20E111578002756FC /* Accelerate.framework */,
 				FAF3D96E0E0C00D900A9E6F6 /* Sparkle.framework */,
 				FA5BE0970D980AA700C1A937 /* Security.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
@@ -295,6 +302,8 @@
 		FA5BE4940D986E0300C1A937 /* Third Party Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FAEB499B0E11144D002756FC /* NSImage+IconData.h */,
+				FAEB499C0E11144D002756FC /* NSImage+IconData.m */,
 				FADD83D60D99116800C5CFF6 /* SS_PrefsController */,
 				FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */,
 				FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */,
@@ -543,6 +552,7 @@
 				FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */,
 				FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */,
 				FA6E9D450D9D554B00276786 /* SI_ChangeLogController.m in Sources */,
+				FAEB499D0E11144D002756FC /* NSImage+IconData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
