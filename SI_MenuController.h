@@ -13,6 +13,8 @@
 
 @interface SI_MenuController : NSObject
 {
+	SI_WindowController *mainWindow;
+	SI_WindowController *changeLogWindow;
 	SS_PrefsController *prefs;
 }
 

@@ -12,9 +12,9 @@
 
 - (void)awakeFromNib
 {
-	[[SI_StartupChecks alloc] init];
+	[[[SI_StartupChecks alloc] init] release];
 	[NSApp activateIgnoringOtherApps:YES];
-	SI_WindowController *mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_Main"];
+	mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_Main"];
 	[[mainWindow document] setTitle:@"Set Icon"];
 	[mainWindow showWindow:self];
 }
@@ -47,13 +47,15 @@
 
 - (IBAction)changeLog:(id)sender
 {
-	SI_WindowController *mainWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_ChangeLog"];
-	[[mainWindow document] setTitle:@"Change Log"];
-	[mainWindow showWindow:self];
+	changeLogWindow = [[SI_WindowController alloc] initWithWindowNibName:@"SI_ChangeLog"];
+	[[changeLogWindow document] setTitle:@"Change Log"];
+	[changeLogWindow showWindow:self];
 }
 
 - (void)dealloc
 {
+	[changeLogWindow release];
+	[mainWindow release];
 	[prefs release];
 	[super dealloc];
 }

@@ -118,6 +118,7 @@
 			[task setStandardOutput: pipe];
 	
 			[task launch];
+			[task release];
 		}
 	}
 }

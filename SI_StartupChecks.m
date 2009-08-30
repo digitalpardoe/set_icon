@@ -10,11 +10,13 @@
 
 @implementation SI_StartupChecks
 
-- (void)init
+- (id)init
 {
 	[self _toolTipCheck];
 	[self _updateCheck];
 	[self _donateCheck];
+	
+	return nil;
 }
 
 - (void)_toolTipCheck
@@ -24,8 +26,6 @@
 		[[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:YES] forKey:@"ShowToolTips"];
 		[[NSUserDefaults standardUserDefaults] synchronize];
 	}
-	
-	[toolTipChecking release];
 }
 
 - (void)_updateCheck
@@ -36,8 +36,6 @@
 		[[NSUserDefaults standardUserDefaults] setObject:updateChecking forKey:@"SUCheckAtStartup"];
 		[[NSUserDefaults standardUserDefaults] synchronize];
 	}
-	
-	[updateChecking release];
 }
 
 - (void)_donateCheck
@@ -52,8 +50,6 @@
 			[[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contact%40digitalpardoe%2eco%2euk&item_name=digital%3apardoe&no_shipping=1&no_note=1&tax=0&currency_code=GBP&lc=GB&bn=PP%2dDonationsBF&charset=UTF%2d8"]];
 		}
 	}
-	
-	[donateChecking release];
 }
 
 @end
