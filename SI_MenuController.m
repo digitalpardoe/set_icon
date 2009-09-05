@@ -33,7 +33,7 @@
 		
 		[prefs setAlwaysOpensCentered:YES];
 		
-		[prefs setPanesOrder:[NSArray arrayWithObjects:@"Updates", @"Tool Tips", nil]];
+		[prefs setPanesOrder:[NSArray arrayWithObjects:@"Updates", nil]];
 	}
     
 	// Show the preferences window.

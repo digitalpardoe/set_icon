@@ -15,38 +15,9 @@
 	removeIcon = FALSE;
 	
 	defaults = [NSUserDefaults standardUserDefaults];
-	showToolTips = [defaults boolForKey:@"ShowToolTips"];
 	
 	[theWindow center];
-	
 	[drivePath setURL:[NSURL fileURLWithPath:@"/"]];
-	
-	if (showToolTips == TRUE)
-	{
-		NSPoint drivePoint = NSMakePoint(NSMaxX([drivePath frame]), NSMidY([drivePath frame]));
-		driveWindow = [[MAAttachedWindow alloc] initWithView:driveView attachedToPoint:drivePoint inWindow:theWindow onSide:2 atDistance:10];
-		[driveWindow setViewMargin:10];
-		[driveWindow setHasShadow:FALSE];
-		[theWindow addChildWindow:driveWindow ordered:NSWindowAbove];
-	
-		NSPoint iconPoint = NSMakePoint(NSMaxX([theIcon frame]), NSMidY([theIcon frame]));
-		iconWindow = [[MAAttachedWindow alloc] initWithView:iconView attachedToPoint:iconPoint inWindow:theWindow onSide:2 atDistance:10];
-		[iconWindow setViewMargin:8];
-		[iconWindow setHasShadow:FALSE];
-		[theWindow addChildWindow:iconWindow ordered:NSWindowAbove];
-	
-		NSPoint buttonPoint = NSMakePoint(NSMaxX([setIconButton frame]), NSMidY([setIconButton frame]));
-		buttonWindow = [[MAAttachedWindow alloc] initWithView:buttonView attachedToPoint:buttonPoint inWindow:theWindow onSide:2 atDistance:10];
-		[buttonWindow setViewMargin:10];
-		[buttonWindow setHasShadow:FALSE];
-		[theWindow addChildWindow:buttonWindow ordered:NSWindowAbove];
-		
-		NSPoint windowPoint = NSMakePoint(NSMidX([setIconButton frame]), NSMaxY([setIconButton frame]));
-		mainWindow = [[MAAttachedWindow alloc] initWithView:windowView attachedToPoint:windowPoint inWindow:theWindow onSide:1 atDistance:50];
-		[mainWindow setViewMargin:10];
-		[mainWindow setHasShadow:FALSE];
-		[theWindow addChildWindow:mainWindow ordered:NSWindowAbove];
-	}
 	
 	[theWindow makeKeyAndOrderFront:self];
 }
@@ -145,10 +116,6 @@
 	[iconView release];
 	[buttonView release];
 	[windowView release];
-    [driveWindow release];
-	[iconWindow release];
-	[buttonWindow release];
-	[mainWindow release];
 	[defaults release];
 	[theImage release];
 	[super dealloc];

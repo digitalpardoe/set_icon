@@ -12,7 +12,6 @@
 		FA1373700E10E5F00092B471 /* SI_Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA13736F0E10E5F00092B471 /* SI_Menu.xib */; };
 		FA1373980E10E6030092B471 /* SI_Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1373970E10E6030092B471 /* SI_Main.xib */; };
 		FA1373A00E10E6130092B471 /* SI_ChangeLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA13739F0E10E6130092B471 /* SI_ChangeLog.xib */; };
-		FA1373A90E10E6E30092B471 /* SI_ToolTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1373A80E10E6E30092B471 /* SI_ToolTipsView.xib */; };
 		FA1373BD0E10E6FA0092B471 /* SI_UpdatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1373BC0E10E6FA0092B471 /* SI_UpdatesView.xib */; };
 		FA1603AC0D98817900C80C50 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1602E60D98812100C80C50 /* CoreServices.framework */; };
 		FA1603AD0D98817C00C80C50 /* SetHasCustomIcon.c in Sources */ = {isa = PBXBuildFile; fileRef = FA1602DC0D9880E400C80C50 /* SetHasCustomIcon.c */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -20,7 +19,6 @@
 		FA5BE0980D980AA700C1A937 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BE0970D980AA700C1A937 /* Security.framework */; };
 		FA5BE1740D981F4C00C1A937 /* DPAuthFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */; };
 		FA5BE4930D986C9700C1A937 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA5BE4920D986C9700C1A937 /* Credits.rtf */; };
-		FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */; };
 		FA63065D0D9A9B3F00F27C65 /* ChangeLog.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */; };
 		FA6E9D450D9D554B00276786 /* SI_ChangeLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9D440D9D554B00276786 /* SI_ChangeLogController.m */; };
 		FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E94D0D971B3F0062DD8D /* DPImageView.m */; };
@@ -31,12 +29,8 @@
 		FADD842A0D9912A800C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Copy Preference Panes */ = {isa = PBXBuildFile; fileRef = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */; };
 		FADD84980D99157200C5CFF6 /* SI_UpdatePrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */; };
-		FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Copy Preference Panes */ = {isa = PBXBuildFile; fileRef = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */; };
-		FADD86430D9921C000C5CFF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		FADD86460D9921C300C5CFF6 /* SI_ToolTipPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */; };
 		FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */; };
 		FADD871F0D992DF700C5CFF6 /* SI_UpdateIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */; };
-		FADD87210D992E2300C5CFF6 /* SI_ToolTipIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */; };
 		FADD87550D9947C500C5CFF6 /* SI_Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FADD87540D9947C500C5CFF6 /* SI_Icon.icns */; };
 		FAE9E8300D969A1C00854FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
 		FAE9E8380D969A8F00854FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -61,13 +55,6 @@
 			remoteGlobalIDString = FADD84220D99123E00C5CFF6;
 			remoteInfo = Updates;
 		};
-		FADD85D00D991E1E00C5CFF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FADD85C10D991DB500C5CFF6;
-			remoteInfo = ToolTips;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,7 +75,6 @@
 			dstPath = "../Preference Panes";
 			dstSubfolderSpec = 7;
 			files = (
-				FADD85D30D991E2300C5CFF6 /* ToolTips.preferencePane in Copy Preference Panes */,
 				FADD84490D99138C00C5CFF6 /* Updates.preferencePane in Copy Preference Panes */,
 			);
 			name = "Copy Preference Panes";
@@ -118,7 +104,6 @@
 		FA13736F0E10E5F00092B471 /* SI_Menu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SI_Menu.xib; sourceTree = "<group>"; };
 		FA1373970E10E6030092B471 /* SI_Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SI_Main.xib; sourceTree = "<group>"; };
 		FA13739F0E10E6130092B471 /* SI_ChangeLog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SI_ChangeLog.xib; sourceTree = "<group>"; };
-		FA1373A80E10E6E30092B471 /* SI_ToolTipsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SI_ToolTipsView.xib; sourceTree = "<group>"; };
 		FA1373BC0E10E6FA0092B471 /* SI_UpdatesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SI_UpdatesView.xib; sourceTree = "<group>"; };
 		FA1602DC0D9880E400C80C50 /* SetHasCustomIcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SetHasCustomIcon.c; sourceTree = "<group>"; };
 		FA1602E60D98812100C80C50 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
@@ -127,8 +112,6 @@
 		FA5BE1720D981F4C00C1A937 /* DPAuthFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAuthFileManager.h; sourceTree = "<group>"; };
 		FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAuthFileManager.m; sourceTree = "<group>"; };
 		FA5BE4920D986C9700C1A937 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
-		FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
 		FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ChangeLog.rtf; sourceTree = "<group>"; };
 		FA6E9D430D9D554B00276786 /* SI_ChangeLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_ChangeLogController.h; sourceTree = "<group>"; };
 		FA6E9D440D9D554B00276786 /* SI_ChangeLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ChangeLogController.m; sourceTree = "<group>"; };
@@ -147,14 +130,9 @@
 		FADD84230D99123E00C5CFF6 /* Updates.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Updates.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADD84960D99157200C5CFF6 /* SI_UpdatePrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_UpdatePrefController.h; sourceTree = "<group>"; };
 		FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_UpdatePrefController.m; sourceTree = "<group>"; };
-		FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolTips.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADD85C30D991DB500C5CFF6 /* ToolTips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolTips-Info.plist"; sourceTree = "<group>"; };
-		FADD85CC0D991E0B00C5CFF6 /* SI_ToolTipPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_ToolTipPrefController.h; sourceTree = "<group>"; };
-		FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ToolTipPrefController.m; sourceTree = "<group>"; };
 		FADD86550D99237500C5CFF6 /* SI_StartupChecks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_StartupChecks.h; sourceTree = "<group>"; };
 		FADD86560D99237500C5CFF6 /* SI_StartupChecks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_StartupChecks.m; sourceTree = "<group>"; };
 		FADD871E0D992DF700C5CFF6 /* SI_UpdateIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_UpdateIcon.tif; sourceTree = "<group>"; };
-		FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SI_ToolTipIcon.tif; sourceTree = "<group>"; };
 		FADD87540D9947C500C5CFF6 /* SI_Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SI_Icon.icns; sourceTree = "<group>"; };
 		FAEB499B0E11144D002756FC /* NSImage+IconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+IconData.h"; sourceTree = "<group>"; };
 		FAEB499C0E11144D002756FC /* NSImage+IconData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+IconData.m"; sourceTree = "<group>"; };
@@ -191,14 +169,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADD85C00D991DB500C5CFF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADD86430D9921C000C5CFF6 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -225,7 +195,6 @@
 				8D1107320486CEB800E47090 /* Set Icon.app */,
 				FA1602F30D98816700C80C50 /* SetHasCustomIcon */,
 				FADD84230D99123E00C5CFF6 /* Updates.preferencePane */,
-				FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,8 +274,6 @@
 				FAEB499B0E11144D002756FC /* NSImage+IconData.h */,
 				FAEB499C0E11144D002756FC /* NSImage+IconData.m */,
 				FADD83D60D99116800C5CFF6 /* SS_PrefsController */,
-				FA5BE4990D986E2F00C1A937 /* MAAttachedWindow.h */,
-				FA5BE49A0D986E2F00C1A937 /* MAAttachedWindow.m */,
 			);
 			name = "Third Party Classes";
 			sourceTree = "<group>";
@@ -335,7 +302,6 @@
 		FADD842F0D9912C300C5CFF6 /* Preference Panes */ = {
 			isa = PBXGroup;
 			children = (
-				FADD85C90D991DEE00C5CFF6 /* ToolTips */,
 				FADD84300D9912D700C5CFF6 /* Updates */,
 			);
 			name = "Preference Panes";
@@ -351,18 +317,6 @@
 				FADD84970D99157200C5CFF6 /* SI_UpdatePrefController.m */,
 			);
 			name = Updates;
-			sourceTree = "<group>";
-		};
-		FADD85C90D991DEE00C5CFF6 /* ToolTips */ = {
-			isa = PBXGroup;
-			children = (
-				FADD87200D992E2300C5CFF6 /* SI_ToolTipIcon.tif */,
-				FA1373A80E10E6E30092B471 /* SI_ToolTipsView.xib */,
-				FADD85C30D991DB500C5CFF6 /* ToolTips-Info.plist */,
-				FADD85CC0D991E0B00C5CFF6 /* SI_ToolTipPrefController.h */,
-				FADD85CD0D991E0B00C5CFF6 /* SI_ToolTipPrefController.m */,
-			);
-			name = ToolTips;
 			sourceTree = "<group>";
 		};
 		FADD87530D9947A800C5CFF6 /* Images */ = {
@@ -424,7 +378,6 @@
 			dependencies = (
 				FA1603C00D9881C800C80C50 /* PBXTargetDependency */,
 				FADD84320D99130800C5CFF6 /* PBXTargetDependency */,
-				FADD85D10D991E1E00C5CFF6 /* PBXTargetDependency */,
 			);
 			name = "Set Icon";
 			productInstallPath = "$(HOME)/Applications";
@@ -465,23 +418,6 @@
 			productReference = FADD84230D99123E00C5CFF6 /* Updates.preferencePane */;
 			productType = "com.apple.product-type.bundle";
 		};
-		FADD85C10D991DB500C5CFF6 /* ToolTips */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FADD85C60D991DB600C5CFF6 /* Build configuration list for PBXNativeTarget "ToolTips" */;
-			buildPhases = (
-				FADD85BE0D991DB500C5CFF6 /* Resources */,
-				FADD85BF0D991DB500C5CFF6 /* Sources */,
-				FADD85C00D991DB500C5CFF6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ToolTips;
-			productName = ToolTips;
-			productReference = FADD85C20D991DB500C5CFF6 /* ToolTips.preferencePane */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -497,7 +433,6 @@
 				8D1107260486CEB800E47090 /* Set Icon */,
 				FA1602F20D98816700C80C50 /* SetHasCustomIcon */,
 				FADD84220D99123E00C5CFF6 /* Updates */,
-				FADD85C10D991DB500C5CFF6 /* ToolTips */,
 			);
 		};
 /* End PBXProject section */
@@ -526,15 +461,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADD85BE0D991DB500C5CFF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADD87210D992E2300C5CFF6 /* SI_ToolTipIcon.tif in Resources */,
-				FA1373A90E10E6E30092B471 /* SI_ToolTipsView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -548,7 +474,6 @@
 				FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */,
 				FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */,
 				FA5BE1740D981F4C00C1A937 /* DPAuthFileManager.m in Sources */,
-				FA5BE49B0D986E2F00C1A937 /* MAAttachedWindow.m in Sources */,
 				FADD83D30D9910DF00C5CFF6 /* SS_PrefsController.m in Sources */,
 				FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */,
 				FA6E9D450D9D554B00276786 /* SI_ChangeLogController.m in Sources */,
@@ -572,14 +497,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADD85BF0D991DB500C5CFF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADD86460D9921C300C5CFF6 /* SI_ToolTipPrefController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -592,11 +509,6 @@
 			isa = PBXTargetDependency;
 			target = FADD84220D99123E00C5CFF6 /* Updates */;
 			targetProxy = FADD84310D99130800C5CFF6 /* PBXContainerItemProxy */;
-		};
-		FADD85D10D991E1E00C5CFF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FADD85C10D991DB500C5CFF6 /* ToolTips */;
-			targetProxy = FADD85D00D991E1E00C5CFF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -644,7 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -658,7 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
@@ -750,58 +662,6 @@
 			};
 			name = Release;
 		};
-		FADD85C40D991DB500C5CFF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "ToolTips-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = ToolTips;
-				WRAPPER_EXTENSION = preferencePane;
-			};
-			name = Debug;
-		};
-		FADD85C50D991DB500C5CFF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "ToolTips-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = ToolTips;
-				WRAPPER_EXTENSION = preferencePane;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -837,15 +697,6 @@
 			buildConfigurations = (
 				FADD84240D99123E00C5CFF6 /* Debug */,
 				FADD84250D99123E00C5CFF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FADD85C60D991DB600C5CFF6 /* Build configuration list for PBXNativeTarget "ToolTips" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FADD85C40D991DB500C5CFF6 /* Debug */,
-				FADD85C50D991DB500C5CFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

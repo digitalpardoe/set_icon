@@ -12,20 +12,10 @@
 
 - (id)init
 {
-	[self _toolTipCheck];
 	[self _updateCheck];
 	[self _donateCheck];
 	
 	return nil;
-}
-
-- (void)_toolTipCheck
-{
-	NSNumber *toolTipChecking = [[NSUserDefaults standardUserDefaults] objectForKey:@"ShowToolTips"];
-	if (!toolTipChecking) {
-		[[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:YES] forKey:@"ShowToolTips"];
-		[[NSUserDefaults standardUserDefaults] synchronize];
-	}
 }
 
 - (void)_updateCheck

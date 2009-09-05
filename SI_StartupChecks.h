@@ -10,7 +10,6 @@
 
 @interface SI_StartupChecks : NSObject
 
-- (void)_toolTipCheck;
 - (void)_updateCheck;
 - (void)_donateCheck;
 

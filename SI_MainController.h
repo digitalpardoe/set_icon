@@ -9,7 +9,6 @@
 #import <Cocoa/Cocoa.h>
 #import "DPImageView.h"
 #import "DPAuthFileManager.h"
-#import "MAAttachedWindow.h"
 #import "NSImage+IconData.h"
 
 @interface SI_MainController : NSObject
@@ -22,11 +21,6 @@
 	IBOutlet NSView *iconView;
 	IBOutlet NSView *buttonView;
 	IBOutlet NSView *windowView;
-	
-    MAAttachedWindow *driveWindow;
-	MAAttachedWindow *iconWindow;
-	MAAttachedWindow *buttonWindow;
-	MAAttachedWindow *mainWindow;
 	
 	NSUserDefaults *defaults;
 	BOOL showToolTips;
