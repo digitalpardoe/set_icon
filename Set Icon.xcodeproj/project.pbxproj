@@ -22,6 +22,7 @@
 		FA63065D0D9A9B3F00F27C65 /* ChangeLog.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */; };
 		FA6E9D450D9D554B00276786 /* SI_ChangeLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E9D440D9D554B00276786 /* SI_ChangeLogController.m */; };
 		FAA4E94E0D971B3F0062DD8D /* DPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E94D0D971B3F0062DD8D /* DPImageView.m */; };
+		FAA9B4200F93A5C300838141 /* NSImage+MGCropExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B41F0F93A5C300838141 /* NSImage+MGCropExtensions.m */; };
 		FAB52C680D96A14100DAD8D5 /* SI_MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C650D96A14100DAD8D5 /* SI_MenuController.m */; };
 		FAB52C690D96A14100DAD8D5 /* SI_WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */; };
 		FAB52D7A0D96AFCD00DAD8D5 /* SI_MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */; };
@@ -117,6 +118,8 @@
 		FA6E9D440D9D554B00276786 /* SI_ChangeLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ChangeLogController.m; sourceTree = "<group>"; };
 		FAA4E94C0D971B3F0062DD8D /* DPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageView.h; sourceTree = "<group>"; };
 		FAA4E94D0D971B3F0062DD8D /* DPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageView.m; sourceTree = "<group>"; };
+		FAA9B41E0F93A5C300838141 /* NSImage+MGCropExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+MGCropExtensions.h"; sourceTree = "<group>"; };
+		FAA9B41F0F93A5C300838141 /* NSImage+MGCropExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+MGCropExtensions.m"; sourceTree = "<group>"; };
 		FAB52C640D96A14100DAD8D5 /* SI_MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MenuController.h; sourceTree = "<group>"; };
 		FAB52C650D96A14100DAD8D5 /* SI_MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_MenuController.m; sourceTree = "<group>"; };
 		FAB52C660D96A14100DAD8D5 /* SI_WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_WindowController.h; sourceTree = "<group>"; };
@@ -271,6 +274,8 @@
 		FA5BE4940D986E0300C1A937 /* Third Party Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FAA9B41E0F93A5C300838141 /* NSImage+MGCropExtensions.h */,
+				FAA9B41F0F93A5C300838141 /* NSImage+MGCropExtensions.m */,
 				FAEB499B0E11144D002756FC /* NSImage+IconData.h */,
 				FAEB499C0E11144D002756FC /* NSImage+IconData.m */,
 				FADD83D60D99116800C5CFF6 /* SS_PrefsController */,
@@ -478,6 +483,7 @@
 				FADD86570D99237500C5CFF6 /* SI_StartupChecks.m in Sources */,
 				FA6E9D450D9D554B00276786 /* SI_ChangeLogController.m in Sources */,
 				FAEB499D0E11144D002756FC /* NSImage+IconData.m in Sources */,
+				FAA9B4200F93A5C300838141 /* NSImage+MGCropExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
