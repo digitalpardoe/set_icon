@@ -19,6 +19,11 @@
 //
 //  Created by ted on 12/28/07.
 //
+//  Now with extra bits nicked Matt Gemmel's NSImage+MGCropExtensions
+//  for nicer image resizing, we don't want stretched images.
+//
+//  Modified by Alex on 06/10/09.
+//
 #import <AppKit/NSImage.h>
 
 @class NSData;
@@ -28,5 +33,9 @@
 // Creates the data for a .icns file from this NSImage.  You can use a width
 // of 128, 256 or 512 pixels (128 and 512 only supported on Leopard).
 - (NSData *)icnsDataWithWidth:(int)width;
+
+- (void)drawInRect:(NSRect)dstRect operation:(NSCompositingOperation)op fraction:(float)delta;
+
+- (NSImage *)imageToFitSize:(NSSize)size;
 
 @end

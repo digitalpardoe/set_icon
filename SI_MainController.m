@@ -75,21 +75,6 @@
 				
 				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"/tmp/seticon_temp.icns"]];
 			}
-			
-			NSTask *task;
-			task = [[NSTask alloc] init];
-			[task setLaunchPath: @"/usr/bin/killall"];
-		
-			NSArray *arguments;
-			arguments = [NSArray arrayWithObjects: @"Finder", nil];
-			[task setArguments: arguments];
-
-			NSPipe *pipe;
-			pipe = [NSPipe pipe];
-			[task setStandardOutput: pipe];
-	
-			[task launch];
-			[task release];
 		}
 	}
 }
