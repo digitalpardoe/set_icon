@@ -165,14 +165,15 @@
 						<object class="NSTextField" id="825091582">
 							<reference key="NSNextResponder" ref="114495033"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{32, 115}, {225, 119}}</string>
+							<string key="NSFrame">{{32, 98}, {225, 153}}</string>
 							<reference key="NSSuperview" ref="114495033"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="653342031">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">138711040</int>
 								<string type="base64-UTF8" key="NSContents">U2VsZWN0IFlvdXIgRHJpdmUKCkRyYWcgQW55IEltYWdlIEludG8gVGhpcyBBcmVhCgpDbGljayAnU2V0
-IEljb24nCgpFbnRlciBZb3VyIFBhc3N3b3JkA</string>
+IEljb24nCgpFbnRlciBZb3VyIFBhc3N3b3JkCgooWW91IE1heSBOZWVkIFRvIFJlc3RhcnQgRmluZGVy
+KQ</string>
 								<object class="NSFont" key="NSSupport">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
