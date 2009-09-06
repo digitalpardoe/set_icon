@@ -17,6 +17,7 @@
 	IBOutlet NSPathControl *drivePath;
     IBOutlet DPImageView *theIcon;
 	IBOutlet NSButton *setIconButton;
+	IBOutlet NSTextField *helpText;
 	
 	NSUserDefaults *defaults;
 	BOOL removeIcon;
@@ -26,5 +27,6 @@
 
 - (IBAction)setIcon:(id)sender;
 - (IBAction)removeCustomIcon:(id)sender;
+- (IBAction)imageDropped:(id)sender;
 
 @end

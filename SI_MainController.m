@@ -28,54 +28,45 @@
 	BOOL isDir, fail;
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
-	fail = NO;
-	
 	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
-		
-	if(!fail && !isDir)
+	
+	if(!isDir)
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
 		[alert setMessageText:@"No drive selected!"];
-		[alert setInformativeText:@"Please select a drive to apply the icon to by dragging it onto the path bar or using the arrows at the end of the path bar."];
+		[alert setInformativeText:@"Please select a drive by dragging it to the path bar or by it selecting from the drop-down list."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
 		
-		fail = YES;
+		return;
 	}
 	
-	if (!fail && ![theIcon imagePath] && !removeIcon)
+	if (![theIcon imagePath] && !removeIcon)
 	{
 		NSAlert *alert = [[[NSAlert alloc] init] autorelease];
 		[alert addButtonWithTitle:@"OK"];
-		[alert setMessageText:@"No icon selected!"];
-		[alert setInformativeText:@"Please select an icon to apply to the drive by dragging it into the box."];
+		[alert setMessageText:@"No image selected!"];
+		[alert setInformativeText:@"Please select an image by dragging it onto the image area."];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert beginSheetModalForWindow:theWindow modalDelegate:self didEndSelector:nil contextInfo:nil];
 		
-		fail = YES;
+		return;
 	}
 	
+	[fileManager authenticate];
 	
-	if(!fail)
+	if ([fileManager authorized])
 	{
-		[fileManager authenticate];
-		
-		if ([fileManager authorized])
+		if(removeIcon)
 		{
-			if(removeIcon)
-			{
-				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-			} else {
-				theImage = [[[NSImage alloc] initWithContentsOfURL:[theIcon imageURL]] autorelease];
-				[[theImage icnsDataWithWidth:512] writeToFile:@"/tmp/seticon_temp.icns" atomically:NO];
-		
-				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-				[fileManager copyPathWithAuthentication:@"/tmp/seticon_temp.icns" toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
-				[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
-				
-				[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"/tmp/seticon_temp.icns"]];
-			}
+			[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+		} else {
+			theImage = [[[NSImage alloc] initWithContentsOfURL:[theIcon imageURL]] autorelease];
+			[[theImage icnsDataWithWidth:512] writeToFile:@"/tmp/seticon_temp.icns" atomically:NO];
+			[fileManager copyPathWithAuthentication:@"/tmp/seticon_temp.icns" toPath:[NSString stringWithFormat:@"%@/.VolumeIcon.icns", [[drivePath URL] relativePath]]];
+			[fileManager setDriveIconWithAuthentication:[[drivePath URL] relativePath]];
+			[fileManager deletePathWithAuthentication:[NSString stringWithFormat:@"/tmp/seticon_temp.icns"]];
 		}
 	}
 }
@@ -106,6 +97,11 @@
 		
 		removeIcon = FALSE;
 	}
+}
+
+- (IBAction)imageDropped:(id)sender
+{
+	[helpText setHidden:YES];
 }
 
 - (void)dealloc
