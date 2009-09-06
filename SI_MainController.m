@@ -25,10 +25,9 @@
 
 - (IBAction)setIcon:(id)sender
 {
-	BOOL isDir, fail;
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
-	isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
+	BOOL isDir = [fileManager isDrive:[[drivePath URL] relativePath]];
 	
 	if(!isDir)
 	{
@@ -112,6 +111,7 @@
 	[setIconButton release];
 	[defaults release];
 	[theImage release];
+	[helpText release];
 	[super dealloc];
 }
 
