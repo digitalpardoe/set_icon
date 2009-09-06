@@ -41,12 +41,12 @@
 			<object class="NSWindowTemplate" id="728195539">
 				<int key="NSWindowStyleMask">261</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{40, 775}, {290, 356}}</string>
+				<string key="NSWindowRect">{{40, 776}, {290, 355}}</string>
 				<int key="NSWTFlags">603980800</int>
 				<string key="NSWindowTitle">Set Icon</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
-				<string key="NSWindowContentMaxSize">{3.40282e+38, 3.40282e+38}</string>
+				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
 				<object class="NSView" key="NSWindowView" id="114495033">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -63,7 +63,7 @@
 									<string>NSFilenamesPboardType</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{20, 331}, {250, 22}}</string>
+							<string key="NSFrame">{{20, 330}, {250, 22}}</string>
 							<reference key="NSSuperview" ref="114495033"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSPathCell" key="NSCell" id="872417694">
@@ -86,7 +86,7 @@
 						<object class="NSButton" id="644725395">
 							<reference key="NSNextResponder" ref="114495033"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{67, 312}, {155, 18}}</string>
+							<string key="NSFrame">{{67, 310}, {155, 18}}</string>
 							<reference key="NSSuperview" ref="114495033"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="218095021">
@@ -129,7 +129,7 @@
 									<string>NeXT TIFF v4.0 pasteboard type</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{17, 48}, {256, 256}}</string>
+							<string key="NSFrame">{{17, 47}, {256, 256}}</string>
 							<reference key="NSSuperview" ref="114495033"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSImageCell" key="NSCell" id="732760201">
@@ -144,8 +144,8 @@
 						</object>
 						<object class="NSButton" id="76718049">
 							<reference key="NSNextResponder" ref="114495033"/>
-							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 19}, {250, 25}}</string>
+							<int key="NSvFlags">293</int>
+							<string key="NSFrame">{{20, 18}, {250, 25}}</string>
 							<reference key="NSSuperview" ref="114495033"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="767010489">
@@ -163,11 +163,11 @@
 							</object>
 						</object>
 					</object>
-					<string key="NSFrameSize">{290, 356}</string>
+					<string key="NSFrameSize">{290, 355}</string>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
-				<string key="NSMaxSize">{3.40282e+38, 3.40282e+38}</string>
+				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
 			</object>
 			<object class="NSCustomObject" id="566246824">
 				<string key="NSClassName">SI_MainController</string>
@@ -393,9 +393,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{315, 789}, {290, 356}}</string>
+					<string>{{315, 790}, {290, 355}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{315, 789}, {290, 356}}</string>
+					<string>{{315, 790}, {290, 355}}</string>
 					<integer value="1"/>
 					<integer value="1"/>
 					<string>{3.40282e+38, 3.40282e+38}</string>

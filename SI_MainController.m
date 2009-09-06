@@ -18,6 +18,7 @@
 	
 	[theWindow center];
 	[drivePath setURL:[NSURL fileURLWithPath:@"/"]];
+	[theIcon setImageScaling:NSScaleProportionally];
 	
 	[theWindow makeKeyAndOrderFront:self];
 }
@@ -81,12 +82,28 @@
 
 - (IBAction)removeCustomIcon:(id)sender
 {
-	if ([[setIconButton title] isEqualToString:@"Set Icon"])
+	if ([sender state] == NSOnState)
 	{
 		[setIconButton setTitle:@"Remove Icon"];
+		[theIcon setHidden:YES];
+		
+		NSRect newFrame = [theWindow frame];
+		newFrame.size.height = [theWindow frame].size.height - ([theIcon frame].size.height + 5);
+		newFrame.size.width = [theWindow frame].size.width;
+		newFrame.origin.y += [theIcon frame].size.height + 5;
+		[theWindow setFrame:newFrame display:YES animate:YES];
+		
 		removeIcon = TRUE;
 	} else {
 		[setIconButton setTitle:@"Set Icon"];
+		[theIcon setHidden:NO];
+		
+		NSRect newFrame = [theWindow frame];
+		newFrame.size.height = [theWindow frame].size.height + ([theIcon frame].size.height + 5);
+		newFrame.size.width = [theWindow frame].size.width;
+		newFrame.origin.y -= [theIcon frame].size.height + 5;
+		[theWindow setFrame:newFrame display:YES animate:YES];
+		
 		removeIcon = FALSE;
 	}
 }
