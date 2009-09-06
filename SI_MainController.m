@@ -114,10 +114,6 @@
 	[drivePath release];
     [theIcon release];
 	[setIconButton release];
-	[driveView release];
-	[iconView release];
-	[buttonView release];
-	[windowView release];
 	[defaults release];
 	[theImage release];
 	[super dealloc];
