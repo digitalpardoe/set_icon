@@ -19,6 +19,11 @@
 //
 //  Created by ted on 12/28/07.
 //
+//  Now with extra bits nicked Matt Gemmel's NSImage+MGCropExtensions
+//  for nicer image resizing, we don't want stretched images.
+//
+//  Modified by Alex on 06/10/09.
+//
 #import <AppKit/AppKit.h>
 #import <CoreServices/CoreServices.h>
 #import <Accelerate/Accelerate.h>
