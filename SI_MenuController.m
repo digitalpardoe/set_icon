@@ -42,7 +42,7 @@
 
 - (IBAction)donate:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=digital%2epardoe%40gmail%2ecom&item_name=digital%3apardoe%20Donation&no_shipping=1&return=http%3a%2f%2fdigitalpardoe%2eco%2euk%2f&cancel_return=http%3a%2f%2fdigitalpardoe%2eco%2euk%2f&no_note=1&tax=0&currency_code=GBP&lc=GB&bn=PP%2dDonationsBF&charset=UTF%2d8"]];
+	[[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contact%40digitalpardoe%2eco%2euk&item_name=digital%3apardoe&no_shipping=1&no_note=1&tax=0&currency_code=GBP&lc=GB&bn=PP%2dDonationsBF&charset=UTF%2d8"]];
 }
 
 - (IBAction)changeLog:(id)sender
