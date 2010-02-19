@@ -123,6 +123,8 @@
 		FAB52C670D96A14100DAD8D5 /* SI_WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_WindowController.m; sourceTree = "<group>"; };
 		FAB52D780D96AFCD00DAD8D5 /* SI_MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MainController.h; sourceTree = "<group>"; };
 		FAB52D790D96AFCD00DAD8D5 /* SI_MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_MainController.m; sourceTree = "<group>"; };
+		FAC4F5A4112F3C42009797BF /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		FAC4F5A5112F3C53009797BF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FADD83D10D9910DF00C5CFF6 /* SS_PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PrefsController.h; sourceTree = "<group>"; };
 		FADD83D20D9910DF00C5CFF6 /* SS_PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_PrefsController.m; sourceTree = "<group>"; };
 		FADD83D50D99116600C5CFF6 /* SS_PreferencePaneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PreferencePaneProtocol.h; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAC4F5A3112F3C2A009797BF /* Documents */,
 				FADD87530D9947A800C5CFF6 /* Images */,
 				FAE9E8370D969A7700854FC8 /* Interface */,
 				FAE9E8360D969A6900854FC8 /* Text & Property List */,
@@ -287,6 +290,15 @@
 				FA5BE1730D981F4C00C1A937 /* DPAuthFileManager.m */,
 			);
 			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		FAC4F5A3112F3C2A009797BF /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4F5A4112F3C42009797BF /* README.markdown */,
+				FAC4F5A5112F3C53009797BF /* LICENSE */,
+			);
+			name = Documents;
 			sourceTree = "<group>";
 		};
 		FADD83D60D99116800C5CFF6 /* SS_PrefsController */ = {
