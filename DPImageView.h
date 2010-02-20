@@ -3,9 +3,10 @@
 //  Set Icon
 //
 //	Created by Gregory Weston on 03/05/08.
-//  Adapted by Alex on 23/03/2008.
+//  Adapted by Alex Pardoe on 23/03/2008.
 //	From http://www.cocoadev.com/index.pl?NSImageView
-//  Copyright 2008 digital:pardoe. All rights reserved.
+//
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #import <Cocoa/Cocoa.h>

@@ -2,8 +2,7 @@
 //  SI_StartupChecks.m
 //  Set Icon
 //
-//  Created by Alex on 25/03/2008.
-//  Copyright 2008 digital:pardoe. All rights reserved.
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #import "SI_StartupChecks.h"

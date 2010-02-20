@@ -2,8 +2,7 @@
 //  SI_ApplicationController.m
 //  Set Icon
 //
-//  Created by Alex on 23/03/2008.
-//  Copyright 2008 digital:pardoe. All rights reserved.
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #import "SI_MenuController.h"

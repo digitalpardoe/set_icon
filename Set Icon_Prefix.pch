@@ -1,5 +1,8 @@
 //
-// Prefix header for all source files of the 'Set Icon' target in the 'Set Icon' project
+//  ISI_Prefix.pch
+//  Set Icon
+//
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #ifdef __OBJC__

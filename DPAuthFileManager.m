@@ -2,8 +2,7 @@
 //  DPFileManager.m
 //  Set Icon
 //
-//  Created by Alex on 24/03/2008.
-//  Copyright 2008 digital:pardoe. All rights reserved.
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #import "DPAuthFileManager.h"

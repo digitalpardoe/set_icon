@@ -1,9 +1,8 @@
 //
-//  main.m
+//  ISI_Main.m
 //  Set Icon
 //
-//  Created by Alex on 23/03/2008.
-//  Copyright digital:pardoe 2008. All rights reserved.
+//	See 'LICENSE' for copyright and licensing.
 //
 
 #import <Cocoa/Cocoa.h>
