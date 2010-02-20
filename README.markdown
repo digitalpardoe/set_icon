@@ -5,12 +5,12 @@ A Little History
 ----------------
 When Leopard was released it appeared to do a crap job of converting images to be drive icons when using
 the traditional 'copy & paste' method. The Apple (TM) Developer Tools provided a small utility called
-*SetFile* that allowed you to set an 'icns' file as a drive icon, giving a nicely scaled icon without
+*SetFile* that allowed you to set an ICNS file as a drive icon, giving a nicely scaled icon without
 jagged edges, however this wasn't very convenient for the average user (and I wasn't particularly fond of
 it either - too much hassle creating the ICNS and copying it to */.VolumeIcon.icns* - I know, I'm just
 lazy).
 
-All of this led me to create **Set Icon**, the initial release was pretty useless as it could only set 'icns'
+All of this led me to create **Set Icon**, the initial release was pretty useless as it could only set ICNS
 files as icons and constantly requested the users password, the situation fortunately improved up to the
 most recent release in which any image can be applied as a drive icon, it is scaled correctly and the user's
 password is only requested once - and the custom icon can be removed too.
