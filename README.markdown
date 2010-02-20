@@ -14,7 +14,7 @@ lazy).
 All of this led me to create **Set Icon**, the initial release was pretty useless as it could only set ICNS
 files as icons and constantly requested the users password, the situation fortunately improved up to the
 most recent release in which any image can be applied as a drive icon, it is scaled correctly and the user's
-password is only requested once - and the custom icon can be removed too.
+password is only requested once - the custom icon can be removed too.
 
 Disclaimer
 ----------
@@ -46,7 +46,7 @@ In **Set Icon** I actually took note of where all the code I used came from;
 * *SS_PrefsController* (and associated) by [Matt Gemmell](http://mattgemmell.com/) (license in files).
 * *NSImage+IconData* by Google (modified by me) licensed under the Apache 2.0 license - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 * *DPImageView* by Gregory Weston from [http://www.cocoadev.com/index.pl?NSImageView](http://www.cocoadev.com/index.pl?NSImageView) - not sure of the license attached to this so wrapped under my own for now.
-* *SetHasCustomIcon* based on code by John R Chang - licensed under Creative Commons Public Domain - in modified form licensed under my license.
+* *SetHasCustomIcon* based on code by John R Chang - licensed under Creative Commons Public Domain - in modified form, distributed under my license.
 
 I have endeavoured to make sure all the code I used is correctly licensed before this release to open
 source but I am aware that I may have forgotten where code originally came from, if you see something
