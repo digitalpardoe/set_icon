@@ -18,7 +18,7 @@ password is only requested once - and the custom icon can be removed too.
 Disclaimer
 ----------
 Not much to say here, my Objective-C and Cocoa skills were better when I was writing this, compared to my
-initial attempts in iSyncIt at least, I still make no gurantees however, that any of the code you see
+initial attempts in iSyncIt at least, I still make no guarantees however, that any of the code you see
 here is 'correct', it is simply 'working'.
 
 Useful Bits
@@ -35,7 +35,7 @@ These are some of the more useful classes in the application;
 Past Versions
 -------------
 **Set Icon** was developed entirely using a version control system of one form or another so all the source
-history can be found inside the Git repository. All release binarys can be found in the download section
+history can be found inside the Git repository. All release binaries can be found in the download section
 of the GitHub project page.
 
 Licenses
