@@ -1,5 +1,6 @@
 Set Icon
 ========
+Quickly set custom drive icons in OS X, any drive, any image.
 
 A Little History
 ----------------
