@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>digital:pardoe</title>
+    <link>http://digitalpardoe.co.uk/</link>
+    <description>digital:pardoe Set Icon AppCast</description>
+    <language>en-en</language>
+    <item>
+      <title>Set Icon 0.5</title>
+      <description>&lt;ul&gt;
+&lt;li&gt;Snow Leopard compatibility.&lt;/li&gt;
+&lt;li&gt;Removed tooltips, un-needed excess.&lt;/li&gt;
+&lt;li&gt;Finder is no longer forcibly killed.&lt;/li&gt;
+&lt;li&gt;Images are now scaled rather than stretched.&lt;/li&gt;
+&lt;li&gt;Improved icon application.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <enclosure type="application/octet-stream" sparkle:version="0.5" url="http://digitalpardoe.co.uk/downloads/seticon/Set_Icon_0.5.dmg" length="743447"/>
+    </item>
+  </channel>
+</rss>
