@@ -115,6 +115,8 @@
 		FA63065C0D9A9B3F00F27C65 /* ChangeLog.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ChangeLog.rtf; sourceTree = "<group>"; };
 		FA6E9D430D9D554B00276786 /* SI_ChangeLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_ChangeLogController.h; sourceTree = "<group>"; };
 		FA6E9D440D9D554B00276786 /* SI_ChangeLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SI_ChangeLogController.m; sourceTree = "<group>"; };
+		FA8ECB571201F7A3007B4C22 /* Application Icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Application Icon.psd"; sourceTree = "<group>"; };
+		FA8ECB581201F7A3007B4C22 /* Toolbar Icons.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toolbar Icons.psd"; sourceTree = "<group>"; };
 		FAA4E94C0D971B3F0062DD8D /* DPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageView.h; sourceTree = "<group>"; };
 		FAA4E94D0D971B3F0062DD8D /* DPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageView.m; sourceTree = "<group>"; };
 		FAB52C640D96A14100DAD8D5 /* SI_MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SI_MenuController.h; sourceTree = "<group>"; };
@@ -281,6 +283,15 @@
 			name = "Third Party Classes";
 			sourceTree = "<group>";
 		};
+		FA8ECB561201F791007B4C22 /* Masters */ = {
+			isa = PBXGroup;
+			children = (
+				FA8ECB571201F7A3007B4C22 /* Application Icon.psd */,
+				FA8ECB581201F7A3007B4C22 /* Toolbar Icons.psd */,
+			);
+			name = Masters;
+			sourceTree = "<group>";
+		};
 		FAA4E9440D971AF80062DD8D /* Custom Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +345,7 @@
 		FADD87530D9947A800C5CFF6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA8ECB561201F791007B4C22 /* Masters */,
 				FADD87540D9947C500C5CFF6 /* SI_Icon.icns */,
 			);
 			name = Images;
