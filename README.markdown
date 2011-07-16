@@ -11,11 +11,6 @@ jagged edges, however this wasn't very convenient for the average user (and I wa
 it either - too much hassle creating the ICNS and copying it to */.VolumeIcon.icns* - I know, I'm just
 lazy).
 
-All of this led me to create **Set Icon**, the initial release was pretty useless as it could only set ICNS
-files as icons and constantly requested the users password, the situation fortunately improved up to the
-most recent release in which any image can be applied as a drive icon, it is scaled correctly and the user's
-password is only requested once - the custom icon can be removed too.
-
 Disclaimer
 ----------
 Not much to say here, my Objective-C and Cocoa skills were better when I was writing this, compared to my
@@ -55,7 +50,7 @@ haven't knowingly gone out of my way to avoid giving people credit where credit 
 
 All of my code is licensed under the terms found in the LICENSE file, the license is essentially based
 on the BSD new license but breaks down into the following points (and yes, they're a little bit stolen
-from Matt Gemmell, but he is god-like & what he says goes, period);
+from Matt Gemmell);
 
 1. You can use the code wherever you wish.
 2. You can modify the code as much as you want and use the modified code wherever you wish.
